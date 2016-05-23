@@ -62,7 +62,7 @@
   * If someone wants to show me a safe way to upload photos, I will certainly look at it.
 
 ## Support
-The best place for support is to contact me on my [website](//kevinsspace.ca/contact/)
+The best place for support is to contact me on my [website](http://kevinsspace.ca/contact/)
 
 ## Donations, Reviews, Ratings, and Contributions
 This plugin has taken 1000's hrs of development in the past 4 years. If you use the plugin, it is always nice to give something back to recognize the hardwork of this author. There are many ways to do this:
