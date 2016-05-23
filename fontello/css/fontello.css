@@ -1,0 +1,84 @@
+/**
+ * Fontello Styles for Testimonial Basics Plugin
+ *
+ * Note that these styles are in the katb_user_styles.css sheet
+ * and modified in katb_user_styles.css, and this file is here for reference.
+ *
+ * @package		Testimonial Basics WordPress Plugin
+ * @copyright	Copyright (C) 2016 Kevin Archibald
+ * @license		http://www.gnu.org/licenses/quick-guide-gplv3.html  GNU Public License
+ * @author		Kevin Archibald <www.kevinsspace.ca/contact/>
+ * Testimonial Basics is distributed under the terms of the GNU GPL
+ */
+@charset "UTF-8";
+
+ @font-face {
+  font-family: 'fontello-katb';
+  src: url('../font/fontello.eot?40962753');
+  src: url('../font/fontello.eot?40962753#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?40962753') format('woff'),
+       url('../font/fontello.ttf?40962753') format('truetype'),
+       url('../font/fontello.svg?40962753#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?40962753#fontello') format('svg');
+  }
+}
+*/
+
+.katb_css_rating,
+.katb_popup_wrap.katb_widget .katb_css_rating,
+.katb_popup_wrap .katb_css_rating
+{
+	display: inline-block!important;
+}
+
+.katb_css_rating i,
+.katb_popup_wrap.katb_widget .katb_css_rating i,
+.katb_popup_wrap .katb_css_rating i {
+  font-family: "fontello-katb"!important;
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin: 0 1px 0 0;
+  text-align: center;
+  /* opacity: .8; */
+
+  color: #EACB1E;
+  /* Uncomment for 3D effect */
+  text-shadow: 2px 2px 2px rgba( 0, 0, 0, 0.5);
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /*font-size: 120%;*/
+}
+
+select.katb_css_rating_select,
+select.katb_css_rating_select_widget {
+	float: left;
+	margin: 5px 0 0 0;
+	width: 70px!important;
+	font-size: 1em;
+	padding: 0!important;
+}
+ 
+.icon-katb-star:before { font-family: "fontello-katb"!important; content: '\e800a'; }
+.icon-katb-star-empty:before { font-family: "fontello-katb"!important; content: '\e801b'; }
+.icon-katb-star-half-alt:before { font-family: "fontello-katb"!important; content: '\e802c'; }

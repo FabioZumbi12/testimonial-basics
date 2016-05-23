@@ -1,0 +1,511 @@
+/**
+ * Admin Testimonial Bascis Plugin styles
+ *
+ * @package		Testimonial Basics WordPress Plugin
+ * @copyright	Copyright (C) 2016 Kevin Archibald
+ * @license		http://www.gnu.org/licenses/quick-guide-gplv3.html  GNU Public License
+ * @author		Kevin Archibald <www.kevinsspace.ca/contact/>
+ * Testimonial Basics is distributed under the terms of the GNU GPL
+ * 
+ */
+
+.katb_options_general h1,
+.katb_options_input h1,
+.katb_options_content_display h1,
+.katb_options_widget_display h1
+{clear: both;}
+
+.katb_options {margin-top: 0px;}
+
+.katb_admin_edit_wrap {
+	width: calc(100% - 20px);
+	float: left;
+	margin: 0;
+	padding: 0 20px 0 0;
+}
+.katb_admin_edit_wrap p {font-size: 1.0em;}
+
+.katb_admin_edit_wrap h3 {font-size: 1.4em;}
+
+.katb_admin_edit_wrap img {
+	max-width: 100px;
+	float: left;
+	margin-right: 10px;
+}
+
+/* --------------- Input form styles -------------------- */
+
+.katb_admin_form{
+	width: 100%;
+	float: left;
+}
+
+.katb_admin_form *,.katb_admin_form select 
+{ font-size: 1em!important; }
+
+.ka_edit_column_1,.ka_edit_column_2 {
+	width: 400px;
+	float: left;
+	word-wrap: break-word;
+}
+
+.katb_edit_id_label {
+	float: left;
+	clear: both;
+	width: 130px;
+}
+
+.katb_edit_id_input {
+	float: left;
+}
+
+.katb_edit_approved_label {
+	float: left;
+	margin: 0 5px 0 20px;
+}
+
+input.katb_edit_approved_input {
+	float: left:
+	margin: 0 0 0 5px;
+}
+
+.katb_edit_date_input,
+.katb_edit_time_input,
+.katb_edit_group_input,
+.katb_edit_order_input,
+.katb_edit_rating_input,
+.katb_edit_custom1_input,
+.katb_edit_custom2_input
+{
+	float: left;
+	width: 150px;
+	margin: 5px 0 0 0;
+}
+
+.katb_edit_date_label,
+.katb_edit_time_label,
+.katb_edit_group_label,
+.katb_edit_order_label,
+.katb_edit_rating_label,
+.katb_edit_custom1_label,
+.katb_edit_custom2_label,
+.katb_edit_title_label,
+.katb_edit_testimonial_label
+{
+	float: left;
+	clear: both;
+	width: 130px;
+	margin: 5px 0 0 0;
+}
+
+.katb_edit_title_input {
+	width: 555px;
+	float: left;
+	margin: 5px 0 0 0;
+}
+
+.katb_edit_testimonial_input {
+	width: 555px;
+	float: left;
+	margin: 5px 0 0 0;
+	height: 100px;
+}
+
+.katb_edit_pic_label {
+	float: left;
+}
+
+.katb_edit_avatar {
+	float: left;
+	clear: both;
+	width: 85px;
+	margin: 0 0 5px 0;
+}
+
+.katb_edit_pic img {
+	width: 60px;
+	height: 60px;
+	float: left;
+	clear: both;
+	margin: 0 20px 0 0;
+}
+
+.katb_picture_url {
+	float: left;
+	width: 200px;
+	margin: 0;
+}
+
+.katb_upload_button{
+	float: left;
+	margin: 0 0 0 5px;
+	padding: 0 5px 0 0;
+}
+
+.katb_edit_author_label {
+	float: left;
+	clear: both;
+	width: 85px;
+	margin: 5px 0 0 0;
+}
+
+.katb_edit_author_input {
+	float: left;
+	width: 200px;
+	margin: 5px 0 0 0;
+}
+
+.katb_edit_email_label {
+	float: left;
+	clear: both;
+	width: 85px;
+	margin: 5px 0 0 0;
+}
+
+.katb_edit_email_input {
+	float: left;
+	width: 200px;
+	margin: 5px 0 0 0;
+}
+
+.katb_edit_url_label {
+	float: left;
+	clear: both;
+	width: 85px;
+	margin: 5px 0 0 0;
+}
+
+.katb_edit_url_input {
+	float: left;
+	width: 200px;
+	margin: 5px 0 0 0;
+}
+
+.katb_edit_location_label {
+	float: left;
+	clear: both;
+	width: 85px;
+	margin: 5px 0 0 0;
+}
+
+.katb_edit_location_input {
+	float: left;
+	width: 200px;
+	margin: 5px 0 0 0;
+}
+
+.katb-primary {
+	float: left;
+	clear: both;
+	margin: 10px 0 0 0!important;
+}
+
+.katb-secondary {
+	float: left;
+	margin: 10px 0 0 5px!important;
+}
+
+.katb-highlighted{
+	float: left!important;
+	color: red!important;
+	margin: 10px 0 0 5px!important;
+	padding: 3px!important;
+}
+
+.katb-highlighted:hover {
+	cursor: pointer;
+	opacity: 0.75;
+}
+
+.katb.button-secondary {float: left;}
+
+.katb_paypal {
+	float: right;
+	font-style: italic;
+	font-weight : bold;
+}
+
+.html_allowed {
+	float: left;
+	clear: both;
+	width: 400px;
+	margin: 5px 0 0 140px;
+}
+
+/* Display Testimonials
+ * ================================================================== */
+.katb_admin_display_testimonials {
+	width: 700px;
+	float: left;
+}
+
+h3.katb_admin_title {
+	width: 100%;
+	float: left;
+	clear:both;
+	font-size: 1.4em;
+	margin: 25px 0 15px 0;
+}
+
+/* ----- Pagination ------ */
+ 
+.katb-pagination {float: left;clear:both;}
+
+.ka_paginate,.ka_pages {
+	background-color: #D1D1D1;
+	padding: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	border-top: 3px solid #EDEDED;
+	border-left: 3px solid #EDEDED;
+	border-right: 3px solid #BABABA;
+	border-bottom: 3px solid #BABABA;
+}
+
+.ka_paginate:hover {
+	border-top: 3px solid #BABABA;
+	border-left: 3px solid #BABABA;
+	border-right: 3px solid #EDEDED;
+	border-bottom: 3px solid #EDEDED;
+}
+
+.ka_paginate_selected {
+	background-color: #DDE5FF;
+	padding: 5px;
+	margin-bottom: 5px;
+	border-top: 3px solid #EDEDED;
+	border-left: 3px solid #EDEDED;
+	border-right: 3px solid #BABABA;
+	border-bottom: 3px solid #BABABA;
+}
+
+.katb_admin_display_form {
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.katb_admin_display {
+	width: calc(100% - 2px);
+	float: left;
+	margin: 10px 0 10px 0;
+}
+
+.katb_admin_display_element_row {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 5px 0 0 0;
+	border-radius: 3px;
+	border: 2px solid #c9c9c9;
+	background-color: #ffffff;
+}
+
+.katb_admin_row_top {
+	width: 100%;
+	float: left;
+	padding: 10px 0 0 0;
+	margin: 0;
+
+}
+
+/* ID button, bulk delete checkbox and img
+ * ----------------------------------------- */
+.ka_table_id {
+	width: 50px;
+	float: left;
+	padding: 0 0 0 10px;
+}
+
+.katb_bulk_delete_label img {
+	margin: 0;
+	padding: 0;
+}
+
+.katb_bulk_delete_label {
+	float: left;
+	margin: 10px 0 0 0;
+	padding: 0;
+	line-height: 1em;
+}
+
+.ka_table_id input.katb_bulk_delete_input {
+	margin: 10px 0 0 0;
+	padding: 0;
+	float: left;
+	clear: both;
+	vertical-align: baseline;
+}
+
+
+.ka_table_admin_column {
+	width: 200px;
+	float: left;
+	padding: 0 10px 0 10px;
+	word-wrap: break-word;
+}
+
+.ka_table_date,.ka_table_time,
+.ka_table_approved,.ka_table_group,
+.ka_table_order,.ka_table_custom1,
+.ka_table_custom2,.ka_table_rating,
+.ka_table_name,.ka_table_email,
+.ka_table_location,.ka_table_website
+{
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+.katb_table_date_label,.ka_table_time_label,
+.ka_table_approved_label,.ka_table_group_label,
+.ka_table_order_label,.ka_table_custom1_label,
+.ka_table_custom2_label,.ka_table_rating_label,
+.ka_table_name_label,.ka_table_email_label,
+.ka_table_location_label,.ka_table_website_label
+{
+	display: inline-block;
+	float: left;
+	margin: 0 5px 0 0;
+	padding: 0;
+}
+
+.ka_table_date_value,.ka_table_time_value,
+.ka_table_approved_value,.ka_table_group_value,
+.ka_table_order_value,.ka_table_custom1_value,
+.ka_table_custom2_value,.ka_table_rating_value,
+.ka_table_name_value,.ka_table_email_value,
+.ka_table_location_value,.ka_table_website_value
+{
+	display: inline-block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.ka_table_author_column
+{
+	width: 300px;
+	float: left;
+	padding: 0 10px 0 10px;
+	margin: 0;
+	word-wrap: break-word;
+}
+
+.ka_table_name,
+.ka_table_email,.ka_table_location,
+.ka_table_website
+{
+	width: 100%;
+	word-wrap: break-word;
+}
+
+.ka_table_pic {
+	width: 75px;
+}
+
+.ka_table_pic img {
+	width: 60px;
+	height: 60px;
+	margin: 0;
+}
+
+.ka_table_title {
+	width: calc(100% - 20px);
+	float: left;
+	clear: both;
+	padding: 5px 10px 5px 10px;
+	margin: 10px 0 0 0;
+	background-color: #f2f2f2;
+	word-wrap: break-word;
+	line-height: 1em!important;
+}
+
+.ka_table_testimonial {
+	width: calc(100% - 20px);
+	float: left;
+	clear: both;
+	padding: 10px 10px 10px 10px;
+	margin: 0;
+	background-color: #f7f7f7;
+	word-wrap: break-word;
+}
+
+/* ka_table_testimonial display testimonials styles
+ * ======================================================= */
+.ka_table_testimonial h1 { font-size: 1.5em;line-height: 1.375em;margin: 0;padding:0;font-weight: normal; }
+.ka_table_testimonial h2 { font-size: 1.4em;line-height: 1.375em;margin: 0;padding:0;font-weight: normal; }
+.ka_table_testimonial h3 { font-size: 1.3em;line-height: 1.375em;margin: 0;padding:0;font-weight: normal; }
+.ka_table_testimonial h4 { font-size: 1.2em;line-height: 1.375em;margin: 0;padding:0;font-weight: normal; }
+.ka_table_testimonial h5 { font-size: 1.1em;line-height: 1.375em;margin: 0;padding:0;font-weight: normal; }
+.ka_table_testimonial h6 { font-size: 1.0em;line-height: 1.375em;margin: 0;padding:0;font-weight: normal; }
+
+.ka_table_testimonial img.emoji,
+.ka_table_testimonial img.wp-smiley 
+{float: none;}
+
+.ka_table_testimonial blockquote {
+	font-size: 1.1em;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.ka_table_testimonial cite { font-weight: bold; }
+
+.ka_table_testimonial ul {
+	margin: 0 0 0 20px;
+}
+
+.ka_table_testimonial ul li {
+	margin: 0;
+	list-style: disc;
+}
+
+.ka_table_testimonial ul li li {
+	margin: 0;
+	list-style: circle;
+}
+
+.ka_table_testimonial ul li li li {
+	margin: 0;
+	list-style: square;
+}
+
+.ka_table_testimonial ol {
+	margin: 0 0 0 20px;
+}
+
+.ka_table_testimonial ol li {
+	margin: 0;
+	list-style: decimal;
+}
+
+.ka_table_testimonial ol li li {
+	margin: 0;
+	list-style: lower-alpha;
+}
+
+.ka_table_testimonial ol li li li {
+	margin: 0;
+	list-style: lower-roman;
+}
+
+.ka_table_testimonial abbr,.ka_table_testimonial acronym {
+	border-bottom: dashed 1px;
+}
+
+.ka_table_testimonial code,.ka_table_testimonial kbd {
+	font-family:"Courier New", Courier, monospace;
+}
+
+.ka_table_testimonial pre {
+	font-family:"Courier New", Courier, monospace;
+	background-color:#F7F7F7;
+	padding:10px;
+	overflow:scroll;
+}
+
+/* fix color box bottom margin */
+.wp-color-result {margin: 0 6px 0 0;}

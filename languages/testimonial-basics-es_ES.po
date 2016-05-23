@@ -1,0 +1,3121 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: testimonial-basics\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-22 11:41-0600\n"
+"PO-Revision-Date: 2016-05-22 11:41-0600\n"
+"Last-Translator: Kevin <kevin@kevinsspace.ca>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/katb_functions.php:356 includes/katb_functions.php:624
+#: includes/katb_functions.php:627 includes/katb_options.php:544
+msgid "Website"
+msgstr "Website"
+
+#: includes/katb_functions.php:623 includes/katb_functions.php:626
+msgid "Company"
+msgstr "Empresa"
+
+#: includes/katb_functions.php:729 includes/katb_functions.php:754
+#: includes/katb_functions.php:764
+msgid "All Reviews"
+msgstr "Todos los testimonios"
+
+#: includes/katb_functions.php:748 includes/katb_functions.php:756
+#: includes/katb_functions.php:758
+msgid "Aggregate Review"
+msgstr "Agregar opiniones"
+
+#: includes/katb_functions.php:780 includes/katb_functions.php:811
+msgid "out of"
+msgstr "sobre"
+
+#: includes/katb_functions.php:785 includes/katb_functions.php:817
+msgid "vote"
+msgstr "vota"
+
+#: includes/katb_functions.php:788 includes/katb_functions.php:819
+msgid "not rated"
+msgstr "sin clasificar"
+
+#: includes/katb_functions.php:790 includes/katb_functions.php:822
+msgid "votes"
+msgstr "votos"
+
+#: includes/katb_functions.php:795 includes/katb_functions.php:826
+msgid "no reviews yet"
+msgstr "sin opiniones aun"
+
+#: includes/katb_functions.php:797 includes/katb_functions.php:829
+msgid "review"
+msgstr "opinion"
+
+#: includes/katb_functions.php:800 includes/katb_functions.php:832
+msgid "reviews"
+msgstr "opiniones"
+
+#: includes/katb_functions.php:1650
+msgid "You have received a testimonial!"
+msgstr "Tu has recibido un testimonio"
+
+#: includes/katb_functions.php:1653
+#: includes/katb_testimonial_basics_admin.php:1020
+msgid "Name: "
+msgstr "Nombre:"
+
+#: includes/katb_functions.php:1654
+msgid "Email: "
+msgstr "Email"
+
+#: includes/katb_functions.php:1655
+msgid "Comments: "
+msgstr "Comentarios:"
+
+#: includes/katb_functions.php:1657
+msgid "Log in to approve or view it."
+msgstr "Sesión para aprobar o verlo."
+
+#: includes/katb_functions.php:1660
+msgid "From: "
+msgstr "De:"
+
+#: includes/katb_options.php:83 includes/katb_testimonial_basics_admin.php:1191
+msgid "User role to edit testimonials"
+msgstr "Rol de usuario habilitado para editar testimonios"
+
+#: includes/katb_options.php:89
+msgid "default: Administrator"
+msgstr "Predeterminado: Administrador"
+
+#: includes/katb_options.php:97 includes/katb_testimonial_basics_admin.php:1195
+msgid "Testimonial notify email address"
+msgstr "Notificar el testimonio via email"
+
+#: includes/katb_options.php:99
+msgid "Leave blank to use admin email"
+msgstr "Dejar en blanco para usar el correo electrónico de administrador"
+
+#: includes/katb_options.php:107
+#: includes/katb_testimonial_basics_admin.php:1198
+msgid "Custom Field 1 Name"
+msgstr "Campo personalizado 1 nombre"
+
+#: includes/katb_options.php:109
+msgid "Provide a Name for Custom Field 1"
+msgstr "Proporcione un nombre para el campo personalizado 1"
+
+#: includes/katb_options.php:112
+msgid "Custom1"
+msgstr "personalizado1"
+
+#: includes/katb_options.php:117
+#: includes/katb_testimonial_basics_admin.php:1201
+msgid "Custom Field 2 Name"
+msgstr "Campo personalizado 2 nombre"
+
+#: includes/katb_options.php:119
+msgid "Provide a Name for Custom Field 2"
+msgstr "Proporcionar un nombre de campo personalizado 2"
+
+#: includes/katb_options.php:122
+msgid "Custom2"
+msgstr "Personalizar2"
+
+#: includes/katb_options.php:127
+#: includes/katb_testimonial_basics_admin.php:1207
+msgid "Remove RTL Support"
+msgstr "Quitar soporte RTL"
+
+#: includes/katb_options.php:129
+msgid "Remove right-to-left language support and use a plugin"
+msgstr "Eliminar el soporte de idioma de derecha a izquierda y usar un plugin"
+
+#: includes/katb_options.php:137
+#: includes/katb_testimonial_basics_admin.php:1204
+msgid "Use Ratings"
+msgstr "Utiliza Ratings"
+
+#: includes/katb_options.php:139
+msgid "Use 5 star rating system"
+msgstr "Utilizar 5 estrellas en el sistema de rating"
+
+#: includes/katb_options.php:147
+#: includes/katb_testimonial_basics_admin.php:1213
+msgid "Star color for css stars"
+msgstr "Color de la estrella de las estrellas css"
+
+#: includes/katb_options.php:149
+msgid "default: #EACB1E, only used for css stars"
+msgstr "default: # EACB1E, sólo se utiliza para las estrellas css"
+
+#: includes/katb_options.php:157
+msgid "Shadow color for the css stars"
+msgstr "Color de la sombra de las estrellas css"
+
+#: includes/katb_options.php:159
+msgid "default: #000000, only used for css stars"
+msgstr "default: # 000000, sólo se utiliza para las estrellas css"
+
+#: includes/katb_options.php:167
+#: includes/katb_testimonial_basics_admin.php:1219
+msgid "Enable the testimonial rotator script"
+msgstr "Habilitar el script de rotacion de testimonios"
+
+#: includes/katb_options.php:169 includes/katb_options.php:491
+msgid "Default: checked"
+msgstr "Predeterminado: Con tilde"
+
+#: includes/katb_options.php:177
+#: includes/katb_testimonial_basics_admin.php:1223
+msgid "Custom CSS"
+msgstr "Benutzerdefiniertes CSS"
+
+#: includes/katb_options.php:179
+msgid "replace default css styles or add new ones "
+msgstr "cambiar estilos css por defecto o añadir nuevos"
+
+#: includes/katb_options.php:187
+#: includes/katb_testimonial_basics_admin.php:1226
+msgid "Excerpt More Label"
+msgstr "Extracto de etiqueta más"
+
+#: includes/katb_options.php:189
+msgid "Provide a custom label for the excerpt more link"
+msgstr "Proporcionar una etiqueta personalizada para el extracto más (enlace)"
+
+#: includes/katb_options.php:192
+msgid "more"
+msgstr "mas"
+
+#: includes/katb_options.php:198
+#: includes/katb_testimonial_basics_admin.php:1231
+msgid "Use schema markup"
+msgstr "Utiliza el esquema markup"
+
+#: includes/katb_options.php:200
+msgid "Schema markup is used for Google Snippets to help SEO"
+msgstr "Esquema de marcado usado por Google Snippets para ayudar al SEO"
+
+#: includes/katb_options.php:208
+#: includes/katb_testimonial_basics_admin.php:1235
+msgid "Schema Company Name"
+msgstr "Nombre de la Empresa"
+
+#: includes/katb_options.php:210
+msgid "Name of Company the testimonials are about."
+msgstr "Nombre de la Empresa acerca de la cual se refieren los testimonios"
+
+#: includes/katb_options.php:218
+#: includes/katb_testimonial_basics_admin.php:1238
+msgid "Schema Company Website Reference"
+msgstr "Esquema de la Empresa de la web de referencia"
+
+#: includes/katb_options.php:220
+msgid "Company website address "
+msgstr "Direccion web de la empresa"
+
+#: includes/katb_options.php:228
+#: includes/katb_testimonial_basics_admin.php:1241
+msgid "Schema Display Company"
+msgstr "Mostrar la Compania o Empresa"
+
+#: includes/katb_options.php:230
+msgid "Display company name and website"
+msgstr "Mostrar el nombre de la Compania o Empresa y el website"
+
+#: includes/katb_options.php:238
+#: includes/katb_testimonial_basics_admin.php:1244
+msgid "Schema Display Aggregate"
+msgstr "Agrega esquema de desarrollo"
+
+#: includes/katb_options.php:240
+msgid "Display a summary of reviews"
+msgstr "Mostrar el sumario de opiniones"
+
+#: includes/katb_options.php:248
+#: includes/katb_testimonial_basics_admin.php:1248
+msgid "Schema Display Reviews"
+msgstr "Mostrar opiniones"
+
+#: includes/katb_options.php:250
+msgid "Select to display the individual reviews"
+msgstr "Seleccionar opiniones individuales a mostrar"
+
+#: includes/katb_options.php:258
+#: includes/katb_testimonial_basics_admin.php:1251
+msgid "Use Group Name for Aggregate Name"
+msgstr "Utiliza un nombre de grupo para agregar nombres"
+
+#: includes/katb_options.php:260
+msgid "Select to use the Group Name"
+msgstr "Seleccionar para usar como nombre de grupo"
+
+#: includes/katb_options.php:268
+#: includes/katb_testimonial_basics_admin.php:1254
+msgid "Custom Aggregate Review Name"
+msgstr "Revisar Agregado de Nombre Personalizado"
+
+#: includes/katb_options.php:270
+msgid "Enter a name for the aggregate review"
+msgstr "Ingresar un nombre para agregar comentarios"
+
+#: includes/katb_options.php:279
+msgid "Auto Approve Testimonials"
+msgstr "Auto aprobar Testimonios"
+
+#: includes/katb_options.php:281
+msgid "CAUTION: Use at your own risk."
+msgstr "PRECAUCION: Debes asumir el riesgo de utilizar esta opcion."
+
+#: includes/katb_options.php:289
+#: includes/katb_testimonial_basics_admin.php:1278
+msgid "Use captcha on input forms"
+msgstr "Utiliza captcha en el formulario de registro"
+
+#: includes/katb_options.php:291
+msgid "Check to include captcha."
+msgstr "Poner tilde para incluir captcha."
+
+#: includes/katb_options.php:299
+#: includes/katb_testimonial_basics_admin.php:1282
+msgid "Use color captcha option"
+msgstr "Utiliza el color en la opcion de captcha"
+
+#: includes/katb_options.php:301
+msgid "Check to use the color captcha option"
+msgstr "Tilda para utilizar la opcion del color del captcha"
+
+#: includes/katb_options.php:309
+#: includes/katb_testimonial_basics_admin.php:1286
+msgid "Use Color Captcha Option 2"
+msgstr "Utiliza el color en la opcion de captcha"
+
+#: includes/katb_options.php:311
+msgid "Least secure but most compatible"
+msgstr "Menos segura pero más compatible"
+
+#: includes/katb_options.php:319
+#: includes/katb_testimonial_basics_admin.php:1290
+msgid "Exclude Title for Testimonial in input form"
+msgstr "Excluir a título de testimonio en el formulario de entrada"
+
+#: includes/katb_options.php:321 includes/katb_options.php:331
+#: includes/katb_options.php:341 includes/katb_options.php:351
+#: includes/katb_options.php:361 includes/katb_options.php:371
+#: includes/katb_options.php:381 includes/katb_options.php:391
+#: includes/katb_options.php:401 includes/katb_options.php:411
+msgid "Default: unchecked"
+msgstr "Predeterminado: Sin tilde"
+
+#: includes/katb_options.php:329
+#: includes/katb_testimonial_basics_admin.php:1293
+msgid "Require Title for Testimonial in input form"
+msgstr "Requieren título para testimonio en el formulario de entrada"
+
+#: includes/katb_options.php:339
+#: includes/katb_testimonial_basics_admin.php:1296
+msgid "Exclude Website in input form"
+msgstr "Excluir el Website en el formulario de registro"
+
+#: includes/katb_options.php:349
+msgid "Require website input"
+msgstr "Requerir entrada de sitio web"
+
+#: includes/katb_options.php:359
+#: includes/katb_testimonial_basics_admin.php:1302
+msgid "Exclude Location in input form"
+msgstr "Excluir la ubicacion en el formulario de registro"
+
+#: includes/katb_options.php:369
+msgid "Require Location input"
+msgstr "Requerir entrada Ubicación"
+
+#: includes/katb_options.php:379 includes/katb_options.php:399
+msgid "Exclude"
+msgstr "Excluir"
+
+#: includes/katb_options.php:379 includes/katb_options.php:399
+msgid "in input form"
+msgstr "en el formulario de entrada"
+
+#: includes/katb_options.php:389 includes/katb_options.php:409
+msgid "Require"
+msgstr "Requerir"
+
+#: includes/katb_options.php:389 includes/katb_options.php:409
+msgid "input"
+msgstr "entrada"
+
+#: includes/katb_options.php:420 includes/katb_options.php:650
+#: includes/katb_testimonial_basics_admin.php:1324
+msgid "Include email note"
+msgstr "Incluye nota en el email"
+
+#: includes/katb_options.php:422 includes/katb_options.php:471
+#: includes/katb_options.php:652 includes/katb_options.php:944
+#: includes/katb_options.php:1014 includes/katb_options.php:1024
+#: includes/katb_options.php:1034 includes/katb_options.php:1083
+#: includes/katb_options.php:1162 includes/katb_options.php:1292
+#: includes/katb_options.php:1362 includes/katb_options.php:1372
+#: includes/katb_options.php:1382 includes/katb_options.php:1431
+#: includes/katb_options.php:1508
+msgid "Check to include"
+msgstr "Tilda para incluir gravatars"
+
+#: includes/katb_options.php:430 includes/katb_options.php:660
+#: includes/katb_testimonial_basics_admin.php:1327
+msgid "Email note"
+msgstr "Email nota"
+
+#: includes/katb_options.php:432 includes/katb_options.php:662
+msgid "Default:Email is not published"
+msgstr "Predeterminado: Email no sera publicado"
+
+#: includes/katb_options.php:440 includes/katb_options.php:670
+#: includes/katb_testimonial_basics_admin.php:1331
+msgid "Use popup messages"
+msgstr "Utilice mensajes emergentes"
+
+#: includes/katb_options.php:442 includes/katb_options.php:672
+msgid "Use popup messages for errors and thankyou"
+msgstr "Utilice mensajes emergentes de los errores y gracias"
+
+#: includes/katb_options.php:450 includes/katb_options.php:680
+#: includes/katb_options.php:898 includes/katb_options.php:1271
+msgid "Base Font size"
+msgstr "Tamaño de la fuente de base"
+
+#: includes/katb_options.php:461 includes/katb_options.php:691
+#: includes/katb_options.php:909 includes/katb_options.php:1282
+msgid "1em is equal to 16px"
+msgstr "1em es igual a 16px"
+
+#: includes/katb_options.php:469
+#: includes/katb_testimonial_basics_admin.php:1341
+msgid "Include title on input form"
+msgstr "Incluir un titulo en el formulario"
+
+#: includes/katb_options.php:479
+#: includes/katb_testimonial_basics_admin.php:1344
+msgid "Title for Input Form"
+msgstr "Titulo para el formulario de entrada"
+
+#: includes/katb_options.php:481
+msgid "Default:Add a Testimonial"
+msgstr "Predeterminado: Agrega un Testimonio"
+
+#: includes/katb_options.php:484
+msgid "Add a Testimonial"
+msgstr "Agrega un testimonio"
+
+#: includes/katb_options.php:489
+#: includes/katb_testimonial_basics_admin.php:1348
+msgid "Show html allowed strip in input form"
+msgstr "Mostrar la zona permitida del formulario de registro que admite html."
+
+#: includes/katb_options.php:499 includes/katb_options.php:709
+#: includes/katb_testimonial_basics_admin.php:1352
+msgid "Show gravatar link"
+msgstr "Mostrar enlace gravatar"
+
+#: includes/katb_options.php:501 includes/katb_options.php:711
+msgid "Allows users to set up Gravatar"
+msgstr "Permite a los usuarios configurar Gravatar"
+
+#: includes/katb_options.php:509
+msgid "Show labels inside input boxes"
+msgstr "Mostrar etiquetas dentro de cajas de entrada"
+
+#: includes/katb_options.php:511
+msgid "check to include"
+msgstr "Tilda para incluir gravatars"
+
+#: includes/katb_options.php:519
+msgid "Author Label"
+msgstr "Autor"
+
+#: includes/katb_options.php:521 includes/katb_options.php:731
+msgid "label for author input"
+msgstr "etiqueta para la entrada de autor"
+
+#: includes/katb_options.php:524
+msgid "Author *"
+msgstr "Autor *"
+
+#: includes/katb_options.php:529
+msgid "Email Label"
+msgstr "Email"
+
+#: includes/katb_options.php:531 includes/katb_options.php:741
+msgid "label for email input"
+msgstr "etiqueta de entrada de correo electrónico"
+
+#: includes/katb_options.php:534
+msgid "Email *"
+msgstr "Email *"
+
+#: includes/katb_options.php:539
+msgid "Website Label"
+msgstr "Website"
+
+#: includes/katb_options.php:541 includes/katb_options.php:751
+msgid "label for website input"
+msgstr "etiqueta para la entrada de la página web"
+
+#: includes/katb_options.php:549
+msgid "Location Label"
+msgstr "Ubicacion"
+
+#: includes/katb_options.php:551 includes/katb_options.php:761
+msgid "label for location input"
+msgstr "etiqueta para la ubicación de entrada"
+
+#: includes/katb_options.php:554
+msgid "Location"
+msgstr "Locación"
+
+#: includes/katb_options.php:559 includes/katb_options.php:569
+#: includes/katb_options.php:769 includes/katb_options.php:779
+msgid "Label"
+msgstr "Etiqueta"
+
+#: includes/katb_options.php:561 includes/katb_options.php:571
+msgid "label to appear on content form"
+msgstr "etiqueta en forma de contenido"
+
+#: includes/katb_options.php:579
+msgid "Rating Label"
+msgstr "Rating"
+
+#: includes/katb_options.php:581 includes/katb_options.php:791
+msgid "label for rating input"
+msgstr "etiqueta de entrada de calificación"
+
+#: includes/katb_options.php:584 includes/katb_options.php:794
+msgid "Rating"
+msgstr "Clasificación"
+
+#: includes/katb_options.php:589
+msgid "Testimonial Title Label"
+msgstr "Etiqueta de título testimonial"
+
+#: includes/katb_options.php:591 includes/katb_options.php:801
+msgid "label for title input"
+msgstr "etiqueta de título"
+
+#: includes/katb_options.php:594 includes/katb_options.php:804
+msgid "Title of Testimonial"
+msgstr "Mostrar el titulo del testimonio"
+
+#: includes/katb_options.php:599
+msgid "Testimonial Label"
+msgstr "Testimonio"
+
+#: includes/katb_options.php:601 includes/katb_options.php:811
+msgid "label for testimonial input"
+msgstr "etiqueta de entrada testimonial"
+
+#: includes/katb_options.php:604
+msgid "Testimonial *"
+msgstr "Testimonio *"
+
+#: includes/katb_options.php:609
+msgid "Captcha Label"
+msgstr "Captcha Label"
+
+#: includes/katb_options.php:611 includes/katb_options.php:821
+msgid "label for captcha input"
+msgstr "Entrada de Captcha:"
+
+#: includes/katb_options.php:614 includes/katb_options.php:824
+msgid "Enter Captcha"
+msgstr "Ingresa el Captcha"
+
+#: includes/katb_options.php:619
+msgid "Submit Label"
+msgstr "Enviar calificacion"
+
+#: includes/katb_options.php:621 includes/katb_options.php:831
+msgid "label for submit button"
+msgstr "La etiqueta para el botón de enviar"
+
+#: includes/katb_options.php:624 includes/katb_options.php:834
+msgid "Submit"
+msgstr "Enviar"
+
+#: includes/katb_options.php:629
+msgid "Reset Label"
+msgstr "Reiniciar la calificacion"
+
+#: includes/katb_options.php:631 includes/katb_options.php:841
+msgid "label for reset button"
+msgstr "etiqueta para pulsador"
+
+#: includes/katb_options.php:634 includes/katb_options.php:844
+#: includes/katb_testimonial_basics_admin.php:905
+msgid "Reset"
+msgstr "Reiniciar"
+
+#: includes/katb_options.php:639
+msgid "Required Label"
+msgstr "Se requiere"
+
+#: includes/katb_options.php:641
+msgid "label for required note"
+msgstr "etiqueta para la nota necesaria"
+
+#: includes/katb_options.php:644
+msgid "* Required"
+msgstr "*Requerido"
+
+#: includes/katb_options.php:665
+msgid "Email is not published"
+msgstr "Predeterminado: Email no sera publicado"
+
+#: includes/katb_options.php:699
+msgid "Show html allowed strip in widget form"
+msgstr "En el widget mostrar que esta permitido html"
+
+#: includes/katb_options.php:701
+msgid "Default: not checked"
+msgstr "Predeterminado: sin tilde"
+
+#: includes/katb_options.php:719
+msgid "Show input labels above input box"
+msgstr "Mostrar las etiquetas de entrada por encima de la caja de entrada"
+
+#: includes/katb_options.php:721
+msgid "Default: not checked or inside input box"
+msgstr "Por defecto: no facturado o dentro de la caja de entrada"
+
+#: includes/katb_options.php:729
+msgid "Widget Author Label"
+msgstr "Widget Autor"
+
+#: includes/katb_options.php:734
+msgid "Author-Required"
+msgstr "Autor - Es necesario"
+
+#: includes/katb_options.php:739
+msgid "Widget Email Label"
+msgstr "Widget Email"
+
+#: includes/katb_options.php:744
+msgid "Email-Required"
+msgstr "e-mail obligatorio"
+
+#: includes/katb_options.php:749
+msgid "Widget Website Label"
+msgstr "Widget Website"
+
+#: includes/katb_options.php:754
+msgid "Website-Optional"
+msgstr "Sitio Web (opcional)"
+
+#: includes/katb_options.php:759
+msgid "Widget Location Label"
+msgstr "Widget Ubicacion"
+
+#: includes/katb_options.php:764
+msgid "Location-Optional"
+msgstr "Ubicación (opcional)"
+
+#: includes/katb_options.php:771 includes/katb_options.php:781
+msgid "label to appear on widget form"
+msgstr "etiqueta en forma de widget"
+
+#: includes/katb_options.php:789
+msgid "Widget Rating Label"
+msgstr "Widget Rating"
+
+#: includes/katb_options.php:799
+msgid "Widget Testimonial Title Label"
+msgstr "Etiqueta de título Testimonial de widget"
+
+#: includes/katb_options.php:809
+msgid "Widget Testimonial Label"
+msgstr "Widget Testimonio"
+
+#: includes/katb_options.php:814
+msgid "Testimonial-Required"
+msgstr "Testimonial requerida"
+
+#: includes/katb_options.php:819
+msgid "Widget Captcha Label"
+msgstr "Widget Captcha etiqueta"
+
+#: includes/katb_options.php:829
+msgid "Widget Submit Label"
+msgstr "Widget Enviar"
+
+#: includes/katb_options.php:839
+msgid "Widget Reset Label"
+msgstr "Widget Reiniciar"
+
+#: includes/katb_options.php:849
+msgid "Widget Required Label"
+msgstr "Widget Requerido Label"
+
+#: includes/katb_options.php:851
+msgid "label for required input"
+msgstr "etiqueta de entrada requerida"
+
+#: includes/katb_options.php:860
+#: includes/katb_testimonial_basics_admin.php:1377
+#: includes/katb_testimonial_basics_admin.php:1459
+msgid "Layout Option"
+msgstr "Presentacion de opciones"
+
+#: includes/katb_options.php:868 includes/katb_options.php:1241
+msgid "Try them to see what you prefer"
+msgstr "Prueba para ver lo que tu prefieres"
+
+#: includes/katb_options.php:876
+#: includes/katb_testimonial_basics_admin.php:1381
+msgid "Font for Content Display"
+msgstr "Fuente del contenido a mostrar"
+
+#: includes/katb_options.php:890 includes/katb_options.php:1263
+msgid "default is theme font"
+msgstr "por defecto es tema de la fuente"
+
+#: includes/katb_options.php:917
+msgid "Use pagination"
+msgstr "Utiliza paginacion"
+
+#: includes/katb_options.php:919
+msgid "Check to include for ALL or ALL GROUP displays."
+msgstr "Tilda para incluir TODOS o TODOS LOS GRUPOS a desarrollar"
+
+#: includes/katb_options.php:927
+msgid "Testimonials per page"
+msgstr "Testimonios por pagina"
+
+#: includes/katb_options.php:934
+msgid "select 3, 5 or 10 per page"
+msgstr "Selecciona 3, 5 o 10 por pagina"
+
+#: includes/katb_options.php:942
+msgid "Use excerpts in testimonial display"
+msgstr "Utiliza extractos en el campo de testimonio"
+
+#: includes/katb_options.php:952
+msgid "Excerpt length in words"
+msgstr "Extracto de longitud en palabras"
+
+#: includes/katb_options.php:954
+msgid "default: 80"
+msgstr "por defecto: 80"
+
+#: includes/katb_options.php:962 includes/katb_options.php:1310
+#: includes/katb_testimonial_basics_admin.php:1399
+#: includes/katb_testimonial_basics_admin.php:1476
+msgid "Show title in testimonial"
+msgstr "Mostrar el titulo del testimonio"
+
+#: includes/katb_options.php:964
+msgid "Use a title in your testimonial display"
+msgstr "Usar un título en la pantalla testimonial"
+
+#: includes/katb_options.php:972 includes/katb_options.php:1320
+msgid "Fallback Title"
+msgstr "Título de suplencia"
+
+#: includes/katb_options.php:974 includes/katb_options.php:1322
+msgid "Title to use if there is no title input or group name"
+msgstr "Título si no hay ninguna entrada de título o nombre del grupo"
+
+#: includes/katb_options.php:977 includes/katb_options.php:1325
+msgid "Review"
+msgstr "Crítica"
+
+#: includes/katb_options.php:982
+msgid "Show website in testimonial"
+msgstr "Mostrar website en el testimonio"
+
+#: includes/katb_options.php:984 includes/katb_options.php:1332
+msgid "Check to include website"
+msgstr "Tilda para incluir tu website"
+
+#: includes/katb_options.php:992
+msgid "Show date in testimonial"
+msgstr "Mostrar la fecha en un testimonio"
+
+#: includes/katb_options.php:994 includes/katb_options.php:1342
+msgid "Check to include date"
+msgstr "Tilda si deseas incluir la fecha"
+
+#: includes/katb_options.php:1002
+msgid "Show location in testimonial"
+msgstr "Mostrar la ubicacion de un testimonio"
+
+#: includes/katb_options.php:1004 includes/katb_options.php:1352
+msgid "Check to include location"
+msgstr "Tilda para incluir la ubicacion geografica"
+
+#: includes/katb_options.php:1012 includes/katb_options.php:1022
+#: includes/katb_options.php:1360 includes/katb_options.php:1370
+msgid "Show"
+msgstr "Mostrar"
+
+#: includes/katb_options.php:1012 includes/katb_options.php:1022
+#: includes/katb_options.php:1360 includes/katb_options.php:1370
+msgid "in testimonial"
+msgstr "Testimonio *:"
+
+#: includes/katb_options.php:1032 includes/katb_options.php:1380
+msgid "Use gravatars"
+msgstr "Utiliza gravatars"
+
+#: includes/katb_options.php:1042 includes/katb_options.php:1390
+msgid "Use round gravatars/images"
+msgstr "Utilizar gravatars redondos/imágenes"
+
+#: includes/katb_options.php:1044 includes/katb_options.php:1392
+msgid "All images will be round"
+msgstr "Todas las imágenes será redondas"
+
+#: includes/katb_options.php:1052 includes/katb_options.php:1400
+msgid "Use gravatar substitute"
+msgstr "Utiliza un gravatar sustituto"
+
+#: includes/katb_options.php:1054
+msgid "Use substitute if gravatar unavailable"
+msgstr "Utiliza un sustituto si el gravatar no esta disponible"
+
+#: includes/katb_options.php:1062 includes/katb_options.php:1410
+msgid "Gravatar size"
+msgstr "Tamaño gravatar"
+
+#: includes/katb_options.php:1073 includes/katb_options.php:1421
+msgid "Select a size for the gravatar"
+msgstr "Seleccionar el tamaño de gravatar"
+
+#: includes/katb_options.php:1081 includes/katb_options.php:1429
+#: includes/katb_testimonial_basics_admin.php:1413
+#: includes/katb_testimonial_basics_admin.php:1491
+msgid "Use italic font style"
+msgstr "Utilizar estilo de fuente italic"
+
+#: includes/katb_options.php:1092
+#: includes/katb_testimonial_basics_admin.php:1418
+#: includes/katb_testimonial_basics_admin.php:1496
+msgid "Time between slides"
+msgstr "Tiempo entre diapositivas"
+
+#: includes/katb_options.php:1107 includes/katb_options.php:1454
+msgid "default: 7000 ms, IE9,IE10 uses default"
+msgstr "default: 7000 ms, IE9, IE10 utiliza por defecto"
+
+#: includes/katb_options.php:1115
+#: includes/katb_testimonial_basics_admin.php:1421
+#: includes/katb_testimonial_basics_admin.php:1499
+msgid "Rotator height in pixels"
+msgstr "Altura del widget de rotacion en pixeles"
+
+#: includes/katb_options.php:1136 includes/katb_options.php:1483
+msgid "default: variable"
+msgstr "Predeterminado: variable"
+
+#: includes/katb_options.php:1144
+#: includes/katb_testimonial_basics_admin.php:1426
+#: includes/katb_testimonial_basics_admin.php:1504
+msgid "Rotator transition effect"
+msgstr "Efecto de transicion de la rotacion"
+
+#: includes/katb_options.php:1151 includes/katb_options.php:1498
+msgid "default: fade, IE9,IE10 uses default"
+msgstr "default: se desvanecen, IE9, IE10 utiliza por defecto"
+
+#: includes/katb_options.php:1160 includes/katb_options.php:1506
+#: includes/katb_testimonial_basics_admin.php:1431
+#: includes/katb_testimonial_basics_admin.php:1509
+msgid "Use formatted display"
+msgstr "Utilizar formato a mostrar"
+
+#: includes/katb_options.php:1170
+msgid "Color Option 1"
+msgstr "Opción del color 1"
+
+#: includes/katb_options.php:1172
+msgid "wrap color: Top Meta,Bottom Meta, Meta box color: Side Meta"
+msgstr ""
+"abrigo color: color de la caja Meta superior, parte inferior Meta, Meta: "
+"Meta de lado"
+
+#: includes/katb_options.php:1180
+msgid "Color Option 2"
+msgstr "Opción del color 2"
+
+#: includes/katb_options.php:1182
+msgid "Content Box Color"
+msgstr "Contenido de la caja de Color"
+
+#: includes/katb_options.php:1190
+msgid "Testimonial Box Font Color"
+msgstr "Color de la fuente del campo de testimonios"
+
+#: includes/katb_options.php:1192 includes/katb_options.php:1202
+#: includes/katb_options.php:1538 includes/katb_options.php:1548
+msgid "default: #000000"
+msgstr "Por defecto: #000000"
+
+#: includes/katb_options.php:1200 includes/katb_options.php:1546
+msgid "Author,Location, and Date Color"
+msgstr "Color del Autor, Ubicacion y Fecha"
+
+#: includes/katb_options.php:1210 includes/katb_options.php:1556
+msgid "Website Link Color"
+msgstr "Enlace de color del website"
+
+#: includes/katb_options.php:1212 includes/katb_options.php:1558
+msgid "default: #3384E8"
+msgstr "Por defecto: #3384E8"
+
+#: includes/katb_options.php:1220 includes/katb_options.php:1566
+msgid "Website Link Hover Color"
+msgstr "Website Enlace color flotante"
+
+#: includes/katb_options.php:1222 includes/katb_options.php:1568
+msgid "default: #FFFFFF"
+msgstr "Por defecto: #FFFFFF"
+
+#: includes/katb_options.php:1231
+msgid "Widget Layout Option"
+msgstr "Widget presentacion de opciones"
+
+#: includes/katb_options.php:1249
+#: includes/katb_testimonial_basics_admin.php:1463
+msgid "Font for Widget Display"
+msgstr "Fuente del widget mostrado"
+
+#: includes/katb_options.php:1290
+msgid "Use excerpts in widget testimonial display"
+msgstr "Utiliza extractos en el widget del testimonio a mostrar"
+
+#: includes/katb_options.php:1300
+msgid "Widget excerpt length in characters"
+msgstr "Extracto del widget: longitud en caracteres"
+
+#: includes/katb_options.php:1302
+msgid "default: 25"
+msgstr "por defecto: 25"
+
+#: includes/katb_options.php:1312
+msgid "show title in testimonial"
+msgstr "Mostrar el titulo del testimonio"
+
+#: includes/katb_options.php:1330
+msgid "Show website in widget"
+msgstr "Mostrar el website en el widget"
+
+#: includes/katb_options.php:1340
+msgid "Show date in widget"
+msgstr "Mostrar la fecha en el widget"
+
+#: includes/katb_options.php:1350
+msgid "Show location in widget"
+msgstr "Mostrar la ubicacion en el widget"
+
+#: includes/katb_options.php:1402
+msgid "Use substitute if Gravatar unavailable"
+msgstr "Utilizar sustituto si el gravatar no esta disponible."
+
+#: includes/katb_options.php:1439
+msgid "Widget time between slides"
+msgstr "Widget de tiempo entre diapositivas"
+
+#: includes/katb_options.php:1462
+msgid "Widget rotator height in pixels"
+msgstr "Altura en pixeles del widget de rotacion"
+
+#: includes/katb_options.php:1491
+msgid "Widget rotator transition effect"
+msgstr "Efecto de transicion del Widget rotativo"
+
+#: includes/katb_options.php:1516
+msgid "Background Color"
+msgstr "Color del fondo"
+
+#: includes/katb_options.php:1518
+msgid "default: #EDEDED"
+msgstr "Por defecto: #EDEDED"
+
+#: includes/katb_options.php:1526
+msgid "Divider Color"
+msgstr "Divisor Color"
+
+#: includes/katb_options.php:1528
+msgid "default: #CECECE"
+msgstr "por defecto: #CECECE"
+
+#: includes/katb_options.php:1536
+msgid "Font Color"
+msgstr "Folor de la fuente"
+
+#: includes/katb_shortcodes.php:147
+#: widgets/katb_display_testimonial_widget.php:222
+msgid "You must have 2 approved testimonials to use a rotated display!"
+msgstr ""
+"Tu debes tener 2 testimonios autorizados para utilizar una pantalla rotativa!"
+
+#: includes/katb_shortcodes.php:149
+#: widgets/katb_display_testimonial_widget.php:224
+msgid "There are no approved testimonials to display!"
+msgstr "No hay testimonios aprobados para ser mostrados!"
+
+#: includes/katb_shortcodes.php:289 includes/katb_shortcodes.php:291
+#: includes/katb_testimonial_basics_admin.php:595
+msgid "Author is required"
+msgstr "Autor se requiere"
+
+#: includes/katb_shortcodes.php:300 includes/katb_shortcodes.php:302
+#: includes/katb_testimonial_basics_admin.php:616
+msgid "Valid email is required"
+msgstr "Se requiere un email valido"
+
+#: includes/katb_shortcodes.php:315 includes/katb_shortcodes.php:317
+msgid "Website is required"
+msgstr "Se requiere Sitio web"
+
+#: includes/katb_shortcodes.php:334 includes/katb_shortcodes.php:336
+msgid "Location is required"
+msgstr "Se requiere Ubicación"
+
+#: includes/katb_shortcodes.php:353 includes/katb_shortcodes.php:355
+#: includes/katb_shortcodes.php:372 includes/katb_shortcodes.php:374
+msgid "is required"
+msgstr "es requerido"
+
+#: includes/katb_shortcodes.php:402 includes/katb_shortcodes.php:404
+msgid "Captcha is invalid - please try again"
+msgstr "Captcha no valido - Por favor, intenta de nuevo"
+
+#: includes/katb_shortcodes.php:417 includes/katb_shortcodes.php:419
+msgid "Testimonial title is required"
+msgstr "Se requiere título testimonial"
+
+#: includes/katb_shortcodes.php:443 includes/katb_shortcodes.php:445
+#: includes/katb_testimonial_basics_admin.php:671
+msgid "Testimonial is required"
+msgstr "Testimonio se requiere"
+
+#: includes/katb_shortcodes.php:484 includes/katb_shortcodes.php:486
+#: widgets/katb_input_testimonial_widget.php:396
+#: widgets/katb_input_testimonial_widget.php:398
+msgid "Testimonial Submitted - Thank You!"
+msgstr "Testimonial Enviado - ¡Gracias!"
+
+#: includes/katb_shortcodes.php:514 includes/katb_shortcodes.php:517
+#: widgets/katb_input_testimonial_widget.php:431
+msgid "There were errors so the testimonial was not added: "
+msgstr "Hubo errores por lo que el testimonio no ha podido ser añadido:"
+
+#: includes/katb_shortcodes.php:638
+msgid "Allowed"
+msgstr "Permitido"
+
+#: includes/katb_shortcodes.php:666
+msgid "Add a photo? "
+msgstr "Agregas una foto?"
+
+#: includes/katb_testimonial_basics_admin.php:53
+msgid "Testimonial Basics"
+msgstr "Testimonio"
+
+#: includes/katb_testimonial_basics_admin.php:54
+msgid "Testimonials"
+msgstr "Testimoniales"
+
+#: includes/katb_testimonial_basics_admin.php:75
+msgid "Testimonial Basics Backup or Restore"
+msgstr "Fundamentos testimoniales Backup o Restore"
+
+#: includes/katb_testimonial_basics_admin.php:77
+msgid "Backup or Restore"
+msgstr "Backup o Restore"
+
+#: includes/katb_testimonial_basics_admin.php:89
+msgid "Testimonial Basics Options"
+msgstr "Opciones de bases testimoniales"
+
+#: includes/katb_testimonial_basics_admin.php:91
+msgid "Options"
+msgstr "Opciones"
+
+#: includes/katb_testimonial_basics_admin.php:103
+msgid "Testimonial Basics Edit Testimonials"
+msgstr "Fundamentos testimoniales edición testimonios"
+
+#: includes/katb_testimonial_basics_admin.php:105
+msgid "Edit Testimonials"
+msgstr "Editar Testimonios"
+
+#: includes/katb_testimonial_basics_admin.php:123
+msgid "Testimonial Basics - Instructions"
+msgstr "Testimoniales Basics - instrucciones"
+
+#: includes/katb_testimonial_basics_admin.php:127
+msgid "Introduction"
+msgstr "Introduccion"
+
+#: includes/katb_testimonial_basics_admin.php:129
+msgid ""
+"Testimonial Basics facilitates easy management of customer testimonials."
+msgstr "Testimonial Basics facilita la gestion de los testimonios de usuarios."
+
+#: includes/katb_testimonial_basics_admin.php:130
+msgid ""
+"The user can set up an input form in a page or in a widget, and display all "
+"or selected testimonials in a page or a widget."
+msgstr ""
+"El usuario puede configurar un formulario de entrada en una pagina o un "
+"widget, y mostrar todos los testimonios o bien solo los seleccionados."
+
+#: includes/katb_testimonial_basics_admin.php:132
+msgid ""
+"If you like the program show your appreciation, buy me a coffee, beer, or a "
+"bottle of wine (red please!)."
+msgstr ""
+"Si te gusta el programa muestra tu aprecio y comprame un cafe, una cerveza o "
+"una botella de vino (tinto, por favor!)."
+
+#: includes/katb_testimonial_basics_admin.php:133
+msgid ""
+"Or just head to the website link above and put in a testimonial, or send me "
+"an e-mail, pats on the back are pretty nice too!"
+msgstr ""
+"O simplemente ir al sitio web de enlace arriba y poner en un testimonio, o "
+"enviame un email, palmadas en la espalda son bastante agradable tambien!"
+
+#: includes/katb_testimonial_basics_admin.php:135
+msgid ""
+"I plan to do updates if required, so also contact me if you find any "
+"problems, or have suggestions for improvements."
+msgstr ""
+"Tengo la intencion de hacer cambios, si fueran necesarios, por lo cual te "
+"pido que encuentras algun problema, o si tienes sugerencias para mejorar el "
+"plugin, te pongas en contacto conmigo."
+
+#: includes/katb_testimonial_basics_admin.php:137
+msgid ""
+"I briefly discuss the use of the plugin below. For detailed documentation, "
+"visit the plugin site."
+msgstr ""
+"Yo expongo brevemente al pie, el uso del plugin. Para obtener documentacion "
+"detallada, visita mi web."
+
+#: includes/katb_testimonial_basics_admin.php:139
+msgid "I hope you enjoy Testimonial Basics!"
+msgstr "Yo deseo que tu disfrutes de Testimonial Basics!"
+
+#: includes/katb_testimonial_basics_admin.php:141
+msgid "Visitor Input Form"
+msgstr "Formulario de entrada de los visitantes"
+
+#: includes/katb_testimonial_basics_admin.php:142
+msgid "You can set up a visitor input form very easily."
+msgstr ""
+"Tu puedes configurar un formulario de entrada de visitantes con mucha "
+"facilidad."
+
+#: includes/katb_testimonial_basics_admin.php:143
+msgid "Simply include in your page content:"
+msgstr "Solo tienes que incluirlo en tu pagina de contenido:"
+
+#: includes/katb_testimonial_basics_admin.php:146
+msgid ""
+"IMPORTANT : Make sure you set up the page using the \"Text\" editor and not "
+"the \"Visual\" editor."
+msgstr ""
+"IMPORTANTE: Asegurate de configurar la pagina usando el editor de \"Text\" y "
+"no el editor de \"Visual\" ."
+
+#: includes/katb_testimonial_basics_admin.php:147
+msgid ""
+"group - This will be the group name for the testimonial, default is \"All\""
+msgstr ""
+"grupo - Este será el nombre del grupo para el testimonio, por defecto es "
+"\"Todos\""
+
+#: includes/katb_testimonial_basics_admin.php:148
+msgid "form - The first form is 1 by default"
+msgstr "forma - La primera forma es 1 por defecto"
+
+#: includes/katb_testimonial_basics_admin.php:149
+msgid ""
+"If you have more than one form in the content area number them 1,2,3, ..."
+msgstr ""
+"Si usted tiene más de una forma en el área de contenido número les 1,2,3, ..."
+
+#: includes/katb_testimonial_basics_admin.php:154
+msgid "Visitor Input Widget"
+msgstr "Widget de entrada de los visitantes"
+
+#: includes/katb_testimonial_basics_admin.php:155
+msgid "You can also use a widget as a user input form."
+msgstr ""
+"También puedes utilizar un widget para mostrar un formulario de entrada de "
+"usuario."
+
+#: includes/katb_testimonial_basics_admin.php:156
+msgid ""
+"Go to \"Appearance\" => \"Widgets\" and drag the widget to the widgetized "
+"area."
+msgstr ""
+"Ve a \"Apariencia \" => \"Widgets\" y arrastra el widget a la zona de "
+"widgets."
+
+#: includes/katb_testimonial_basics_admin.php:158
+msgid "Displaying Testimonials"
+msgstr "Viendo Testimonios"
+
+#: includes/katb_testimonial_basics_admin.php:159
+msgid ""
+"You can display testimonials in the content of a page using shortcodes or "
+"you can use widgets to display testimonials."
+msgstr ""
+"Tu puedes mostrar testimonios tanto en el contenido de una pagina utilizando "
+"codigos cortos como utilizando widgets para mostrar testimonios."
+
+#: includes/katb_testimonial_basics_admin.php:161
+msgid "Using a Shortcode"
+msgstr "Usar un codigo corto"
+
+#: includes/katb_testimonial_basics_admin.php:163
+msgid ""
+"To display testimonials create a new page and enter the following shortcode :"
+msgstr ""
+"Para mostrar testimonios crea una nueva página e ingresa el siguiente codigo "
+"corto:"
+
+#: includes/katb_testimonial_basics_admin.php:168
+#: includes/katb_testimonial_basics_admin.php:169
+#: includes/katb_testimonial_basics_admin.php:170
+#: includes/katb_testimonial_basics_admin.php:171
+#: includes/katb_testimonial_basics_admin.php:172
+#: includes/katb_testimonial_basics_admin.php:173
+#: includes/katb_testimonial_basics_admin.php:184
+msgid "Options for"
+msgstr "Opciones para"
+
+#: includes/katb_testimonial_basics_admin.php:168
+msgid "ignores groups"
+msgstr "ignorar grupos"
+
+#: includes/katb_testimonial_basics_admin.php:168
+msgid "display only this grouping"
+msgstr "mostrar solo esta agrupacion"
+
+#: includes/katb_testimonial_basics_admin.php:169
+msgid ""
+"displays all testimonials, or put in the number of testimonials you want to "
+"display"
+msgstr ""
+"muestra todos los testimonios, o bien debes poner en el número de "
+"testimonios que deseas mostrar"
+
+#: includes/katb_testimonial_basics_admin.php:170
+msgid "display randomly"
+msgstr "mostrar al azar"
+
+#: includes/katb_testimonial_basics_admin.php:170
+msgid "display by order number, lowest to highest"
+msgstr "visualizacion por orden numerico de menor a mayor"
+
+#: includes/katb_testimonial_basics_admin.php:170
+msgid "display most recent first"
+msgstr "mostrar primero lo mas reciente"
+
+#: includes/katb_testimonial_basics_admin.php:171
+msgid "leave blank for multiple testimonials"
+msgstr "Dejar en blanco para multiples testimonios"
+
+#: includes/katb_testimonial_basics_admin.php:171
+msgid "put in testimonial ID"
+msgstr "Mostrar el ID de testimonio"
+
+#: includes/katb_testimonial_basics_admin.php:172
+msgid "display all selected testimonials"
+msgstr "mostrar todos los testimonios seleccionados"
+
+#: includes/katb_testimonial_basics_admin.php:172
+msgid "rotate each testimonial"
+msgstr "rotar cada testimonio"
+
+#: includes/katb_testimonial_basics_admin.php:173
+msgid "default to whatever is set up in the General Options Panel"
+msgstr "por defecto a lo que se configura en el Panel de opciones generales"
+
+#: includes/katb_testimonial_basics_admin.php:174
+msgid "no format top meta"
+msgstr "No meta superior de formato"
+
+#: includes/katb_testimonial_basics_admin.php:175
+msgid "no format bottom meta"
+msgstr "No meta inferior formato"
+
+#: includes/katb_testimonial_basics_admin.php:176
+msgid "no format side meta"
+msgstr "ninguna meta de lado de formato"
+
+#: includes/katb_testimonial_basics_admin.php:177
+msgid "format top meta"
+msgstr "formato meta superior"
+
+#: includes/katb_testimonial_basics_admin.php:178
+msgid "format bottom meta"
+msgstr "formato inferior meta"
+
+#: includes/katb_testimonial_basics_admin.php:179
+msgid "format side meta"
+msgstr "formato lado meta"
+
+#: includes/katb_testimonial_basics_admin.php:180
+msgid "no format mosaic"
+msgstr "ninguÌ n mosaico de formato"
+
+#: includes/katb_testimonial_basics_admin.php:181
+msgid "format mosaic"
+msgstr "mosaico de formato"
+
+#: includes/katb_testimonial_basics_admin.php:184
+msgid "whatever is set up in the General Options Panel"
+msgstr "lo que se configura en el Panel de opciones generales"
+
+#: includes/katb_testimonial_basics_admin.php:185
+msgid "override to yes"
+msgstr "override Yes"
+
+#: includes/katb_testimonial_basics_admin.php:185
+msgid "override to no"
+msgstr "anulación no"
+
+#: includes/katb_testimonial_basics_admin.php:191
+msgid ""
+"* Note that if id is not blank ( id=\"\" ), the \"group\", \"by\" and "
+"\"number\" attributes are ignored."
+msgstr ""
+"* Tenga en cuenta que si el ID no está en blanco (id =\"\"), los atributos "
+"del  \"grupo \",  \"por\" y \"numero\" seran ignorados."
+
+#: includes/katb_testimonial_basics_admin.php:192
+msgid "* You must have more then 2 testimonials to rotate them."
+msgstr ""
+"Tu debes tener 2 testimonios autorizados para utilizar una pantalla rotativa!"
+
+#: includes/katb_testimonial_basics_admin.php:193
+msgid "* Use pagination to display a lot of testimonials."
+msgstr "* Utilizar paginacion para mostrar demasiados testimonios."
+
+#: includes/katb_testimonial_basics_admin.php:194
+msgid ""
+"* Pagination can be used to display all testimonials or all testimonials in "
+"a group."
+msgstr ""
+"* La paginacion se puede utilizar para mostrar todos los testimonios o los "
+"testimonios de un grupo."
+
+#: includes/katb_testimonial_basics_admin.php:195
+msgid "* Do not select rotate=\"yes\" more than 5 times in a page content area"
+msgstr ""
+"* No selecciones rotate =\"sí \" mas de 5 veces en el area de una pagina de "
+"contenido"
+
+#: includes/katb_testimonial_basics_admin.php:196
+msgid ""
+"* IMPORTANT : Make sure you set up the page using the \"Text\" editor and "
+"not the \"Visual\" editor."
+msgstr ""
+"* IMPORTANTE: Asegurate de configurar la pagina usando el editor de \"Texto "
+"\" y no el editor de \"Visual \"."
+
+#: includes/katb_testimonial_basics_admin.php:197
+msgid ""
+"* Layout options allow you to override the default layouts and have multiple "
+"layouts on your site."
+msgstr ""
+"* Diseño opciones le permiten reemplazar los diseños predeterminados y "
+"tienen múltiples diseños en su sitio."
+
+#: includes/katb_testimonial_basics_admin.php:198
+msgid ""
+"* Schema should only be used once on a page, this option allows you to "
+"control that."
+msgstr ""
+"* Esquema debe utilizarse solamente una vez en una página, esta opción le "
+"permite controlar eso."
+
+#: includes/katb_testimonial_basics_admin.php:201
+msgid "Using a Widget"
+msgstr "Utilizando Widget"
+
+#: includes/katb_testimonial_basics_admin.php:203
+msgid "You can also use a widget to display a testimonial."
+msgstr "También puede utilizar un widget para mostrar un testimonio."
+
+#: includes/katb_testimonial_basics_admin.php:206
+msgid "Drag the widget to a widetized area and enter a title"
+msgstr "Arrastre el widget a un area de widgets e introducele un titulo"
+
+#: includes/katb_testimonial_basics_admin.php:207
+msgid "There are 12 options out in widgets, try one and see what it looks like"
+msgstr "Hay 12 opciones hacia fuera en widgets, probar una y ver como se ve"
+
+#: includes/katb_testimonial_basics_admin.php:208
+msgid "Save the settings"
+msgstr "Guardar la configuracion"
+
+#: includes/katb_testimonial_basics_admin.php:214
+msgid "* The fewer the testimonials the lower the load time"
+msgstr "* Cuantos menos testimonios menor es el tiempo de carga"
+
+#: includes/katb_testimonial_basics_admin.php:215
+msgid "* Rotate a maximum of 10 testimonials"
+msgstr "* Rotar un maximo de 10 testimonios."
+
+#: includes/katb_testimonial_basics_admin.php:216
+msgid "* You can not use more than 5 rotating widgets on a page"
+msgstr "* No es posible utilizar mas de 5 widgets rotativos en una pagina"
+
+#: includes/katb_testimonial_basics_admin.php:217
+msgid "* If you are not rotating testimonials keep the number below 3"
+msgstr ""
+"*Si tu no estas haciendo rotar los testimonios manten su numero por debajo "
+"de 3"
+
+#: includes/katb_testimonial_basics_admin.php:218
+msgid "* Some layouts are better suited for your type of sidebar then others."
+msgstr ""
+"* Algunos diseños son más apropiados para su tipo de la barra lateral y "
+"otros."
+
+#: includes/katb_testimonial_basics_admin.php:257
+msgid "Save Options"
+msgstr "Guardar opciones"
+
+#: includes/katb_testimonial_basics_admin.php:258
+msgid "Reset Options"
+msgstr "Reiniciar opciones"
+
+#: includes/katb_testimonial_basics_admin.php:578
+msgid "Order must be a integer"
+msgstr "El orden debe ser un numero entero"
+
+#: includes/katb_testimonial_basics_admin.php:625
+msgid "Date must be"
+msgstr "La fecha debe ser"
+
+#: includes/katb_testimonial_basics_admin.php:636
+msgid "Time must be"
+msgstr "La hora debe ser"
+
+#: includes/katb_testimonial_basics_admin.php:703
+msgid "Testimonial added successfuly."
+msgstr "El testimonio ha sido agregado exitosamente."
+
+#: includes/katb_testimonial_basics_admin.php:711
+msgid "Testimonial updated."
+msgstr "Testimonial actualiza."
+
+#: includes/katb_testimonial_basics_admin.php:715
+msgid "Error,testimonial was not added"
+msgstr "Error, el testimonio no fue agregado"
+
+#: includes/katb_testimonial_basics_admin.php:760
+#: includes/katb_testimonial_basics_admin.php:933
+msgid "Error, no ID"
+msgstr "Error, sin ID"
+
+#: includes/katb_testimonial_basics_admin.php:779
+msgid "Testimonial was deleted."
+msgstr "El testimonio ha sido borrado."
+
+#: includes/katb_testimonial_basics_admin.php:820
+msgid ""
+"Click the Help button for instructions or see the testimonial_basics_docs."
+"html file included in the plugin docs folder."
+msgstr ""
+"Haz clic en el boton de Ayuda para obtener instrucciones o consulta el "
+"archivo testimonial_basics_docs.html incluido en la carpeta docs del plugin."
+
+#: includes/katb_testimonial_basics_admin.php:821
+msgid "Enter or update a testimonial (*Required)"
+msgstr "Ingresar o cargar un testimonio (*Se requiere)"
+
+#: includes/katb_testimonial_basics_admin.php:828
+msgid "ID : "
+msgstr "ID"
+
+#: includes/katb_testimonial_basics_admin.php:831
+msgid "Approved : "
+msgstr "Aprobado:"
+
+#: includes/katb_testimonial_basics_admin.php:834
+msgid "Date (YYYY-MM-DD) : "
+msgstr "Fecha (AAAA-MM-DD): "
+
+#: includes/katb_testimonial_basics_admin.php:837
+msgid "Time (HH:MM:SS) : "
+msgstr "Hora (HH:MM:SS): "
+
+#: includes/katb_testimonial_basics_admin.php:840
+#: widgets/katb_display_testimonial_widget.php:61
+msgid "Group : "
+msgstr "Grupo:"
+
+#: includes/katb_testimonial_basics_admin.php:843
+msgid "Order : "
+msgstr "Orden:"
+
+#: includes/katb_testimonial_basics_admin.php:852
+msgid "Review Rating : "
+msgstr "Califica :"
+
+#: includes/katb_testimonial_basics_admin.php:872
+msgid "Gravatar/Photo : "
+msgstr "Gravatar/Photo :"
+
+#: includes/katb_testimonial_basics_admin.php:876
+msgid "Uploaded Author Image"
+msgstr "Imagen autor subido"
+
+#: includes/katb_testimonial_basics_admin.php:883
+msgid "Author * : "
+msgstr "Autor *:"
+
+#: includes/katb_testimonial_basics_admin.php:886
+msgid "Email : "
+msgstr "Email"
+
+#: includes/katb_testimonial_basics_admin.php:890
+msgid "Website : "
+msgstr "Tu web o tu ciberperfil"
+
+#: includes/katb_testimonial_basics_admin.php:893
+msgid "Location : "
+msgstr "Ubicacion:"
+
+#: includes/katb_testimonial_basics_admin.php:898
+msgid "Testimonial Title : "
+msgstr "Título de Testimonios:"
+
+#: includes/katb_testimonial_basics_admin.php:901
+msgid "Testimonial * : "
+msgstr "Testimonio *:"
+
+#: includes/katb_testimonial_basics_admin.php:904
+msgid "Save Testimonial"
+msgstr "Guardar Testimonio"
+
+#: includes/katb_testimonial_basics_admin.php:906
+msgid "Delete"
+msgstr "Borrar"
+
+#: includes/katb_testimonial_basics_admin.php:963
+msgid "WARNING - NO SECOND CHANCE - checked items will be deleted"
+msgstr "ADVERTENCIA - NO SECOND CHANCE - Se eliminarán los elementos marcados"
+
+#: includes/katb_testimonial_basics_admin.php:979
+msgid "Date :"
+msgstr "Fecha :"
+
+#: includes/katb_testimonial_basics_admin.php:983
+msgid "Time: "
+msgstr "Hora:"
+
+#: includes/katb_testimonial_basics_admin.php:987
+msgid "Approved: "
+msgstr "Aprobado:"
+
+#: includes/katb_testimonial_basics_admin.php:997
+msgid "Group: "
+msgstr "Grupo:"
+
+#: includes/katb_testimonial_basics_admin.php:1001
+msgid "Order: "
+msgstr "Orden:"
+
+#: includes/katb_testimonial_basics_admin.php:1013
+msgid "Rating: "
+msgstr "Rating"
+
+#: includes/katb_testimonial_basics_admin.php:1024
+msgid "E-mail: "
+msgstr "Email"
+
+#: includes/katb_testimonial_basics_admin.php:1028
+msgid "Location: "
+msgstr "Ubicacion geografica:"
+
+#: includes/katb_testimonial_basics_admin.php:1032
+msgid "Website: "
+msgstr "Tu web"
+
+#: includes/katb_testimonial_basics_admin.php:1080
+msgid "Adding And Editing Testimonials"
+msgstr "Agregando y Editaando Testimonios"
+
+#: includes/katb_testimonial_basics_admin.php:1082
+msgid ""
+"To add a testimonial simply enter the data and click the Save Testimonial "
+"button"
+msgstr ""
+"Para agregar un testimonio basta con introducir los datos y haga clic en el "
+"boton Guardar Testimonio"
+
+#: includes/katb_testimonial_basics_admin.php:1083
+msgid ""
+"To edit a testimonial click the ID button for the testimonial you want to "
+"edit, make your changes and Save Testimonial"
+msgstr ""
+"Para editar un testimonio haz clic en el boton de ID del el testimonio que "
+"desees editar, realiza los cambios y guarda el Testimonio"
+
+#: includes/katb_testimonial_basics_admin.php:1084
+msgid ""
+"If the Approved checkbox is not selected, the testimonial will not be "
+"displayed."
+msgstr ""
+"Si no se selecciona la casilla de verificacion Aprobado, no se mostrara el "
+"testimonio."
+
+#: includes/katb_testimonial_basics_admin.php:1085
+msgid ""
+"Enter a Order number, and you can optionally display lowest order number "
+"first."
+msgstr ""
+"Introduzca un numero de pedido, y tendras la opcion de mostrar primeramente "
+"el numero de orden mas bajo."
+
+#: includes/katb_testimonial_basics_admin.php:1086
+msgid ""
+"Enter a Group name and you can optionally display only the grouped "
+"testimonials."
+msgstr ""
+"Introduce el nombre de un grupo y solo se mostraran los testimonios de dicho "
+"grupo."
+
+#: includes/katb_testimonial_basics_admin.php:1087
+msgid ""
+"A Gravatar will be shown if the e-mail was set up for a gravatar, and the "
+"photo url input is empty."
+msgstr ""
+"A Gravatar se mostrara si el email fue creado por un gravatar, y la entrada "
+"de la foto url esta vacia."
+
+#: includes/katb_testimonial_basics_admin.php:1088
+msgid ""
+"If you are using gravatars but do not want to display a particular author "
+"gravatar, delete the author email."
+msgstr ""
+"Si estas utilizando Gravatars pero no deseas mostrar el gravatar de un "
+"determinado autor, elimina su email."
+
+#: includes/katb_testimonial_basics_admin.php:1089
+msgid ""
+"If you want to upload a photo instead of using a gravatar, click the Upload "
+"Image button"
+msgstr ""
+"Si quieres subir una foto en lugar de utilizar un gravatar, haz clic en el "
+"boton Subir Imagen"
+
+#: includes/katb_testimonial_basics_admin.php:1090
+msgid ""
+"If you want add or change a rating, select the Review Rating dropdon list."
+msgstr ""
+"Si deseas agregar o cambiar una clasificacion, seleccione tu opcion del menu "
+"desplegable."
+
+#: includes/katb_testimonial_basics_admin.php:1091
+msgid ""
+"In the admin panel testimonials are displayed by most recent date first."
+msgstr ""
+"En el administrador testimonios del panel se muestran por la fecha más "
+"reciente en primer lugar."
+
+#: includes/katb_testimonial_basics_admin.php:1092
+msgid "Each testimonial is assigned an ID number which can not be changed."
+msgstr "Cada testimonio recibe un ID que no es posible cambiar."
+
+#: includes/katb_testimonial_basics_admin.php:1093
+msgid ""
+"To bulk delete testimonials select them and click the Bulk Delete button."
+msgstr ""
+"Para mayor borrar testimonios selecciónelos y haga clic en el botón Eliminar "
+"a granel."
+
+#: includes/katb_testimonial_basics_admin.php:1094
+msgid "Be careful when you bulk delete, there is no second chance."
+msgstr "Tenga cuidado al eliminar a granel, no hay segunda oportunidad."
+
+#: includes/katb_testimonial_basics_admin.php:1096
+msgid "Detailed User Documentation"
+msgstr "Detalle de la documentacion de usuario"
+
+#: includes/katb_testimonial_basics_admin.php:1097
+msgid "Detailed user documentation is available at the plugin site."
+msgstr ""
+"La documentacion detallada de usuario esta disponible en el sitio de plugin."
+
+#: includes/katb_testimonial_basics_admin.php:1103
+msgid "Edit Testimonials Help"
+msgstr "Editar ayuda para Testimonios"
+
+#: includes/katb_testimonial_basics_admin.php:1136
+#: includes/katb_testimonial_basics_admin.php:1849
+msgid "General"
+msgstr "General"
+
+#: includes/katb_testimonial_basics_admin.php:1145
+#: includes/katb_testimonial_basics_admin.php:1872
+msgid "Input Forms"
+msgstr "Formularios"
+
+#: includes/katb_testimonial_basics_admin.php:1154
+#: includes/katb_testimonial_basics_admin.php:1893
+msgid "Content Display"
+msgstr "Contenido a mostrar"
+
+#: includes/katb_testimonial_basics_admin.php:1163
+#: includes/katb_testimonial_basics_admin.php:1914
+msgid "Widget Display"
+msgstr "Widget a mostrar"
+
+#: includes/katb_testimonial_basics_admin.php:1172
+#: includes/katb_testimonial_basics_admin.php:1537
+msgid "FAQ"
+msgstr "FAQ"
+
+#: includes/katb_testimonial_basics_admin.php:1189
+#: includes/katb_testimonial_basics_admin.php:1853
+msgid "General Options"
+msgstr "Opciones generales"
+
+#: includes/katb_testimonial_basics_admin.php:1192
+msgid "Administrator : only logged in administrators can edit testimonials."
+msgstr ""
+"Administrador: Sólo registrado como administrador es posible editar "
+"testimonios."
+
+#: includes/katb_testimonial_basics_admin.php:1193
+msgid "Editor : logged in Administrators or Editors can edit testimonials."
+msgstr ""
+"Editor: Puedes editar testimonios si estas conectado tanto como "
+"administrador asi como editor."
+
+#: includes/katb_testimonial_basics_admin.php:1196
+msgid ""
+"An email is sent to this address (or admin email if left blank) to notify "
+"that a testimonial has been submitted."
+msgstr ""
+"Se envia un correo a esta direccion (o si se trata del administrador el "
+"email se deja en blanco) para notificar que un testimonio ha sido enviado."
+
+#: includes/katb_testimonial_basics_admin.php:1199
+msgid "This is a custom field, give it a name such as Business Name"
+msgstr ""
+"Se trata de un campo personalizado, darle un nombre como nombre de la empresa"
+
+#: includes/katb_testimonial_basics_admin.php:1202
+msgid "This is a custom field, give it a name such as Phone No"
+msgstr "Se trata de un campo personalizado, darle un nombre como el teléfono"
+
+#: includes/katb_testimonial_basics_admin.php:1205
+msgid ""
+"Select this and the user will have the option of submitting a rating using a "
+"five star rating system."
+msgstr ""
+"Selecciona esto y el usuario tendra la opcion de presentar un puntaje "
+"utilizando un sistema de calificacion de cinco estrellas."
+
+#: includes/katb_testimonial_basics_admin.php:1208
+msgid "RTL is now supported, but you can disable that support here."
+msgstr "RTL es ahora compatible, pero puede deshabilitar ese apoyo aquí."
+
+#: includes/katb_testimonial_basics_admin.php:1210
+msgid "Use CSS Rating System"
+msgstr "Usar CSS Sistema de Clasificación"
+
+#: includes/katb_testimonial_basics_admin.php:1211
+msgid ""
+"Select this option and a CSS system is used for the 5 star rating system "
+"instead of jQuery."
+msgstr ""
+"Seleccione esta opción y un sistema CSS se utiliza para el sistema de "
+"calificación de 5 estrellas en vez de jQuery."
+
+#: includes/katb_testimonial_basics_admin.php:1214
+#: includes/katb_testimonial_basics_admin.php:1217
+msgid "Pick the color you want. Only for the CSS System."
+msgstr "Elija el color que desee. Sólo para el Sistema de CSS."
+
+#: includes/katb_testimonial_basics_admin.php:1216
+msgid "Shadow color for css stars"
+msgstr "Color de la sombra de las estrellas css"
+
+#: includes/katb_testimonial_basics_admin.php:1220
+msgid ""
+"Uncheck this box to disable the script, if you are not using rotating "
+"testimonials."
+msgstr ""
+"Desactiva esta casilla si no estas usando testimonios rotativos, a fin de "
+"que no se active la secuencia de comandos (script)."
+
+#: includes/katb_testimonial_basics_admin.php:1221
+msgid ""
+"This option may come in handy if you are troubleshooting jQuery problems."
+msgstr "Esta opcion puede ser útil si esta solucionando problemas de jQuery."
+
+#: includes/katb_testimonial_basics_admin.php:1224
+msgid ""
+"For those of you that want to modify css styles, this is a place to do it."
+msgstr ""
+"Para aquellos de ustedes que desea modificar estilos css, este es un lugar "
+"para hacerlo."
+
+#: includes/katb_testimonial_basics_admin.php:1227
+msgid "Change the label that for the link to the full testimonial."
+msgstr "Cambiar la etiqueta que por el enlace al testimonio completo."
+
+#: includes/katb_testimonial_basics_admin.php:1229
+#: includes/katb_testimonial_basics_admin.php:1858
+msgid "Schema Options"
+msgstr "Cuadro de opciones"
+
+#: includes/katb_testimonial_basics_admin.php:1232
+msgid ""
+"If you choose to use schema markup fill out the information below even if "
+"you choose not to display some items."
+msgstr ""
+"Si decide utilizar una plantilla xml -esquema de marcado- completa la "
+"informacion que se halla a continuacion, incluso si decides no mostrar "
+"algunos articulos."
+
+#: includes/katb_testimonial_basics_admin.php:1233
+msgid ""
+"The reason is that the information is still included in meta tags to help "
+"Google."
+msgstr ""
+"La razon es que la informacion ha sido incluida en las etiquetas meta para "
+"ayudar a Google."
+
+#: includes/katb_testimonial_basics_admin.php:1236
+msgid ""
+"Your company name will appear at the top of the page if you choose to "
+"display it."
+msgstr ""
+"El nombre de la Compania o Empresa aparecera en la parte superior de la "
+"pagina si tu eliges desplegar esta opcion."
+
+#: includes/katb_testimonial_basics_admin.php:1239
+msgid ""
+"Your company website address will appear at the top of the page if you "
+"choose to display it."
+msgstr ""
+"Su direccion web de la empresa aparecera en la parte superior de la pagina, "
+"si tu asi lo eliges."
+
+#: includes/katb_testimonial_basics_admin.php:1242
+msgid "Display your company name and website at the top of the page."
+msgstr ""
+"Mostrar el nombre de la Compania o Empresa y el website en la parte superior "
+"de la pagina."
+
+#: includes/katb_testimonial_basics_admin.php:1245
+msgid ""
+"If you choose to display a group of testimonials then that group is "
+"summarized."
+msgstr ""
+"Si optas por mostrar un grupo de testimonios a continuación, ese grupo es "
+"resumido."
+
+#: includes/katb_testimonial_basics_admin.php:1246
+msgid "Otherwise the summary is for all the testimonials on your site."
+msgstr ""
+"De lo contrario, el indice de titulos sera para todos los testimonios en tu "
+"sitio."
+
+#: includes/katb_testimonial_basics_admin.php:1249
+msgid "You can choose to only display the summary if you want."
+msgstr "Tu puedes elegir una solo sumario si lo deseas"
+
+#: includes/katb_testimonial_basics_admin.php:1252
+msgid ""
+"If you have grouped the testimonials you can use the Group name you have set "
+"up for a summary title."
+msgstr ""
+"Si has agrupado los testimonios tu puedes utilizar el nombre del grupo que "
+"has configurado como titulo del indice tematico."
+
+#: includes/katb_testimonial_basics_admin.php:1255
+msgid "You can specify a custom name if you do not want to use the Group name."
+msgstr ""
+"Puede especificar un nombre personalizado, si no deseas utilizar el nombre "
+"del grupo."
+
+#: includes/katb_testimonial_basics_admin.php:1256
+msgid "If you want to use the Group name then leave this blank."
+msgstr "Si deseas utilizar el nombre del grupo deja esto en blanco."
+
+#: includes/katb_testimonial_basics_admin.php:1257
+msgid ""
+"If you do not want to use a name at all then leave the checkbox unchecked "
+"and this section blank."
+msgstr ""
+"Si no desea utilizar un nombre personalizado para todo, deja esta casilla "
+"sin marcar y esta seccion en blanco."
+
+#: includes/katb_testimonial_basics_admin.php:1272
+#: includes/katb_testimonial_basics_admin.php:1876
+msgid "General Input Options"
+msgstr "Opciones generales de entrada"
+
+#: includes/katb_testimonial_basics_admin.php:1274
+msgid "Auto approve Testimonials"
+msgstr "Auto aprobar Testimonios"
+
+#: includes/katb_testimonial_basics_admin.php:1275
+msgid "You can check this box to have testimonials automatically approved."
+msgstr ""
+"Puedes tildar esta casilla para que testimonios aprueben automaticamente."
+
+#: includes/katb_testimonial_basics_admin.php:1276
+msgid "CAUTION: Not recommended so use at your own risk."
+msgstr ""
+"PRECAUCION: No se recomienda su uso. Si lo aceptas, deberas asumir el riesgo."
+
+#: includes/katb_testimonial_basics_admin.php:1279
+msgid "You can include a black and white captcha on the input forms."
+msgstr ""
+"Tu puedes incluir un captcha en blanco y negro en los formularios de entrada."
+
+#: includes/katb_testimonial_basics_admin.php:1280
+msgid "If for any reason the Captcha is not working, disable it here."
+msgstr ""
+"Si por cualquier motivo el captcha no esta funcionando, desactiva aqui."
+
+#: includes/katb_testimonial_basics_admin.php:1283
+msgid "Select this to use a color captcha option."
+msgstr "Tilda para utilizar la opcion del color del captcha"
+
+#: includes/katb_testimonial_basics_admin.php:1284
+msgid "If the black and white captcha is not working, try this one."
+msgstr "Si el captcha en blanco y negro no funciona, prueba este."
+
+#: includes/katb_testimonial_basics_admin.php:1287
+msgid "This is the third captcha option."
+msgstr "Tilda para utilizar la opcion del color del captcha"
+
+#: includes/katb_testimonial_basics_admin.php:1288
+msgid ""
+"It is the least secure but should work if the other two methods do not.."
+msgstr ""
+"Es el menos seguro pero debería funcionar si los otros dos métodos no..."
+
+#: includes/katb_testimonial_basics_admin.php:1291
+msgid "Select and the Title for Testimonial input will not be used."
+msgstr "Seleccionar y no se utilizará el título para la entrada de testimonio."
+
+#: includes/katb_testimonial_basics_admin.php:1294
+msgid ""
+"If Title for Testimonial is included and this checkbox is selected, the "
+"Title for Testimonial input box must be completed."
+msgstr ""
+"Si se incluye el título de testimonio y se selecciona este cuadro, el título "
+"de testimonio entrada cuadro debe ser completado."
+
+#: includes/katb_testimonial_basics_admin.php:1297
+msgid "Select and the website input will not be used."
+msgstr "Selecciona esta opcion si no se utilizara la entrada de sitio web."
+
+#: includes/katb_testimonial_basics_admin.php:1299
+msgid "Require Website in input form"
+msgstr "Requieren web en formulario de entrada"
+
+#: includes/katb_testimonial_basics_admin.php:1300
+msgid ""
+"If Website is included and this checkbox is selected, the Website input box "
+"must be completed."
+msgstr ""
+"Si sitio web está incluido y esta casilla de verificación está seleccionada, "
+"el cuadro de entrada del sitio web debe ser completado."
+
+#: includes/katb_testimonial_basics_admin.php:1303
+msgid "Select and the location input will not be used."
+msgstr "Selecciona esta opcion y no se mostrara la ubicacion geografica."
+
+#: includes/katb_testimonial_basics_admin.php:1305
+msgid "Require Location in input form"
+msgstr "Ubicación se requieren en el formulario de entrada"
+
+#: includes/katb_testimonial_basics_admin.php:1306
+msgid ""
+"If Location is included and this checkbox is selected, the Location input "
+"box must be completed."
+msgstr ""
+"Si se incluye el lugar y esta casilla de verificación está seleccionada, se "
+"debe completar el cuadro de situación."
+
+#: includes/katb_testimonial_basics_admin.php:1308
+msgid "Exclude Custom 1 in input form"
+msgstr "Excluir 1 Custom en formulario de entrada"
+
+#: includes/katb_testimonial_basics_admin.php:1309
+msgid "Select and the Custom 1 input will not be used."
+msgstr "Seleccione y el encargo 1 entrada no se utiliza."
+
+#: includes/katb_testimonial_basics_admin.php:1310
+msgid ""
+"Note that Custom 1 may be replaced by your Custom 1 label in the General "
+"Options tab."
+msgstr ""
+"Tenga en cuenta que 1 personalizado puede ser reemplazado por su sello "
+"personalizado 1 en la ficha Opciones generales."
+
+#: includes/katb_testimonial_basics_admin.php:1312
+msgid "Require Custom 1 in input form"
+msgstr "Requieren 1 personalizado en el formulario de entrada"
+
+#: includes/katb_testimonial_basics_admin.php:1313
+msgid ""
+"If Custom 1 is included and this checkbox is selected, the Custom 1 input "
+"box must be completed."
+msgstr ""
+"Si encargo 1 se incluye y se selecciona este cuadro, el cuadro de entrada de "
+"encargo 1 debe ser completado."
+
+#: includes/katb_testimonial_basics_admin.php:1315
+msgid "Exclude Custom 2 in input form"
+msgstr "Excluir 2 Custom en formulario de entrada"
+
+#: includes/katb_testimonial_basics_admin.php:1316
+msgid "Select and the Custom 2 input will not be used."
+msgstr "Seleccione y el Custom 2 entrada no se utiliza."
+
+#: includes/katb_testimonial_basics_admin.php:1317
+msgid ""
+"Note that Custom 2 may be replaced by your Custom 2 label in the General "
+"Options tab."
+msgstr ""
+"Tenga en cuenta que costumbre 2 puede ser reemplazado por su sello "
+"personalizado 2 en la ficha Opciones generales."
+
+#: includes/katb_testimonial_basics_admin.php:1319
+msgid "Require Custom 2 in input form"
+msgstr "Requieren 2 Custom en formulario de entrada"
+
+#: includes/katb_testimonial_basics_admin.php:1320
+msgid ""
+"If Custom 2 is included and this checkbox is selected, the Custom 2 input "
+"box must be completed."
+msgstr ""
+"Si encargo 2 se incluye y se selecciona este cuadro, debe completarse el "
+"cuadro personalizado 2."
+
+#: includes/katb_testimonial_basics_admin.php:1322
+msgid "Content and Widget Form Input Options"
+msgstr "Contenido y Widget de Formulario de Opciones de entrada"
+
+#: includes/katb_testimonial_basics_admin.php:1325
+msgid "Check this if you want to add a note."
+msgstr "Tilda aqui si deseas agregar una nota."
+
+#: includes/katb_testimonial_basics_admin.php:1328
+msgid "Add the note here if you do not want to use the default."
+msgstr "Añade una nota aqui si no deseas utilizar el valor predeterminado."
+
+#: includes/katb_testimonial_basics_admin.php:1329
+msgid "Keep the text you enter to a reasonable length or it may look funny."
+msgstr ""
+"Manten el texto que introduzcas en una extension razonable o bien que pueda "
+"resultar agradable."
+
+#: includes/katb_testimonial_basics_admin.php:1332
+msgid ""
+"Check to have a popup javascript messages for errors or thank you, to be "
+"displayed after the testimonial was submitted."
+msgstr ""
+"Compruebe que tiene un popup javascript mensajes por errores o gracias, que "
+"se muestra después de que el testimonio fue presentado."
+
+#: includes/katb_testimonial_basics_admin.php:1333
+msgid ""
+"In some WordPress sites the green colored thank you may not be displayed."
+msgstr ""
+"En algunos sitios de WordPress el color verde gracias no se pueden mostrar."
+
+#: includes/katb_testimonial_basics_admin.php:1334
+msgid "This method provides an alternative."
+msgstr "Este método ofrece una alternativa."
+
+#: includes/katb_testimonial_basics_admin.php:1336
+#: includes/katb_testimonial_basics_admin.php:1384
+#: includes/katb_testimonial_basics_admin.php:1466
+msgid "Base Font Size"
+msgstr "Tamaño de la fuente de base"
+
+#: includes/katb_testimonial_basics_admin.php:1337
+#: includes/katb_testimonial_basics_admin.php:1385
+#: includes/katb_testimonial_basics_admin.php:1467
+msgid "This option allows you to change the font size."
+msgstr "Esta opcion te permite cambiar el tamaño de fuente."
+
+#: includes/katb_testimonial_basics_admin.php:1338
+#: includes/katb_testimonial_basics_admin.php:1386
+#: includes/katb_testimonial_basics_admin.php:1468
+msgid "It should work for most themes but CSS Specifity can cause problems."
+msgstr ""
+"Este CSS trabaja bien para la mayoría de los temas, pero en caso de causar "
+"problemas, se debe crear un CSS Especifico."
+
+#: includes/katb_testimonial_basics_admin.php:1339
+#: includes/katb_testimonial_basics_admin.php:1387
+#: includes/katb_testimonial_basics_admin.php:1469
+msgid "Do not worry about what an em is just try one and see what happens."
+msgstr ""
+"No te preocupes acerca de que es un em solo prueba uno y mira a ver que pasa."
+
+#: includes/katb_testimonial_basics_admin.php:1342
+msgid "Select this to display a title above the input form."
+msgstr ""
+"Selecciona esta opcion para mostrar un titulo por encima del formulario de "
+"entrada."
+
+#: includes/katb_testimonial_basics_admin.php:1345
+msgid "Put the title you want to use here."
+msgstr "Pon aqui el titulo que tu desear usar."
+
+#: includes/katb_testimonial_basics_admin.php:1346
+msgid "Note that for widgets the title is entered when you place the widget."
+msgstr ""
+"Ten en cuenta que para los widgets el titulo se escribe recien cuando tu "
+"ubicas el widget."
+
+#: includes/katb_testimonial_basics_admin.php:1349
+msgid "Optionally include an html allowed strip on input forms."
+msgstr "Opcionalmente, puedes incluir un html en el formulario de registro."
+
+#: includes/katb_testimonial_basics_admin.php:1350
+msgid ""
+"This strip shows the user what html tags will be allowed in the testimonial."
+msgstr ""
+"Esta banda muestra al usuario que etiquetas html seran permitidas en el "
+"testimonio."
+
+#: includes/katb_testimonial_basics_admin.php:1353
+msgid ""
+"Visitors can use this link to set up a gravatar that will be included in the "
+"testimonial."
+msgstr ""
+"Los visitantes pueden utilizar este enlace para configurar un gravatar que "
+"se incluirán en el testimonio."
+
+#: includes/katb_testimonial_basics_admin.php:1355
+msgid "Position Labels inside or above input boxes"
+msgstr "Etiquetas de posición dentro o por encima de casillas"
+
+#: includes/katb_testimonial_basics_admin.php:1356
+msgid "defaults-above for content forms, inside for widget forms."
+msgstr ""
+"defectos por encima por formas de contenido, dentro de formas de widget."
+
+#: includes/katb_testimonial_basics_admin.php:1358
+msgid "Labels"
+msgstr "Descripcion"
+
+#: includes/katb_testimonial_basics_admin.php:1359
+msgid "You can change any of the labels in the input forms."
+msgstr ""
+"Puedes cambiar cualquiera de las etiquetas en los formularios de entrada."
+
+#: includes/katb_testimonial_basics_admin.php:1360
+msgid ""
+"This feature will come in handy for users that want to use a different "
+"language."
+msgstr ""
+"Esta funcion sera muy util para los usuarios que desean utilizar un lenguaje "
+"diferente."
+
+#: includes/katb_testimonial_basics_admin.php:1375
+#: includes/katb_testimonial_basics_admin.php:1897
+msgid "Content Display General Options"
+msgstr "Mostrar contenidos: Opciones generales"
+
+#: includes/katb_testimonial_basics_admin.php:1378
+msgid ""
+"The Meta referred to is the rating, author, date, location, and website."
+msgstr ""
+"El Meta hace referencia a la puntuacion del rating, autor, fecha, lugar y "
+"sitio web."
+
+#: includes/katb_testimonial_basics_admin.php:1379
+msgid ""
+"You can place it at the top or bottom or on the side, or use a mosaic 2 "
+"column layout."
+msgstr ""
+"Puede colocarlo en la parte superior o inferior o en el lado, o utilizar un "
+"diseño de 2 columnas de mosaico."
+
+#: includes/katb_testimonial_basics_admin.php:1382
+#: includes/katb_testimonial_basics_admin.php:1464
+msgid "You can choose a font from the dropdown list."
+msgstr "Tu puedes elegir una fuente desde el menu desplegable."
+
+#: includes/katb_testimonial_basics_admin.php:1389
+msgid "Pagination"
+msgstr "Paginacion"
+
+#: includes/katb_testimonial_basics_admin.php:1390
+msgid ""
+"You can use pagination when you display all testimonials or all testimonials "
+"in a Group."
+msgstr ""
+"* Tu puedes utilizar paginacion para mostrar todos los testimonios o los "
+"testimonios de un grupo."
+
+#: includes/katb_testimonial_basics_admin.php:1391
+msgid "In any other display there is really no reason to use pagination."
+msgstr ""
+"En cualquier otra pantalla no existe realmente ninguna razon para utilizar "
+"la paginacion."
+
+#: includes/katb_testimonial_basics_admin.php:1392
+msgid "You can choose to display 3, 5 or 10 per page."
+msgstr "Selecciona 3, 5 o 10  testimonios a mostrar por pagina"
+
+#: includes/katb_testimonial_basics_admin.php:1394
+#: includes/katb_testimonial_basics_admin.php:1471
+msgid "Excerpts"
+msgstr "Extractos"
+
+#: includes/katb_testimonial_basics_admin.php:1395
+#: includes/katb_testimonial_basics_admin.php:1472
+msgid ""
+"You can use excerpts with the specified number of words to display your "
+"testimonials."
+msgstr ""
+"Puede utilizar fragmentos con el número especificado de palabras para "
+"mostrar sus testimonios."
+
+#: includes/katb_testimonial_basics_admin.php:1396
+#: includes/katb_testimonial_basics_admin.php:1473
+msgid ""
+"When excerpts are selected, the testimonial is limited to the number of "
+"words, extended to end of sentence or break in sentence."
+msgstr ""
+"Cuando se seleccionan extractos, el testimonio se limita a la cantidad de "
+"palabras, extendida al final de la oración o rotura en oración."
+
+#: includes/katb_testimonial_basics_admin.php:1397
+#: includes/katb_testimonial_basics_admin.php:1474
+msgid ""
+"A visitor can then click a ...more link to display a pop-up of the entire "
+"testimonial."
+msgstr ""
+"Un visitante puede entonces hacer clic en un... más enlace para mostrar una "
+"ventana emergente del todo testimonio."
+
+#: includes/katb_testimonial_basics_admin.php:1400
+msgid ""
+"Actual title used first, if unavailable, use group, if group unavailable use "
+"fallback."
+msgstr ""
+"Título real utilizado en primer lugar, si no, utilice grupo, si grupo de "
+"carácter utiliza respaldo."
+
+#: includes/katb_testimonial_basics_admin.php:1402
+#: includes/katb_testimonial_basics_admin.php:1480
+msgid "Meta Display Options"
+msgstr "Mostrar opciones"
+
+#: includes/katb_testimonial_basics_admin.php:1403
+#: includes/katb_testimonial_basics_admin.php:1481
+msgid "The author is displayed as a minimum."
+msgstr "El autor se muestra como un minimo."
+
+#: includes/katb_testimonial_basics_admin.php:1404
+msgid ""
+"You can then optionally display website, location, custom 1, custom 2, and "
+"date."
+msgstr ""
+"Luego opcionalmente puede mostrar sitio web, ubicación, personalizado 1, "
+"personalizado 2 y fecha."
+
+#: includes/katb_testimonial_basics_admin.php:1406
+#: includes/katb_testimonial_basics_admin.php:1484
+msgid "Gravatars"
+msgstr "Gravatars"
+
+#: includes/katb_testimonial_basics_admin.php:1407
+#: includes/katb_testimonial_basics_admin.php:1485
+msgid "Select this to display Gravatars."
+msgstr "Selecciona esta opcion para mostrar Gravatars."
+
+#: includes/katb_testimonial_basics_admin.php:1408
+#: includes/katb_testimonial_basics_admin.php:1486
+msgid "Uploaded photos are displayed first."
+msgstr "Las fotos subidas se mostraran primeramente."
+
+#: includes/katb_testimonial_basics_admin.php:1409
+#: includes/katb_testimonial_basics_admin.php:1487
+msgid ""
+"If an uploaded photo does not exist, the plugin will display a gravatar, if "
+"one exists."
+msgstr ""
+"Si una foto cargada no existe, el plugin mostrara si lo hubiera, un gravatar."
+
+#: includes/katb_testimonial_basics_admin.php:1410
+#: includes/katb_testimonial_basics_admin.php:1488
+msgid ""
+"If gravatar does not exist, you can optionally display a substitute "
+"character."
+msgstr "Si gravatar no existe, puedes mostrar opcionalmente un sustituto."
+
+#: includes/katb_testimonial_basics_admin.php:1411
+#: includes/katb_testimonial_basics_admin.php:1489
+msgid ""
+"You can also select the gravatar size and if the gravatars should be round."
+msgstr ""
+"También puede seleccionar el tamaño de gravatar y si los gravatars debe ser "
+"redonda."
+
+#: includes/katb_testimonial_basics_admin.php:1414
+#: includes/katb_testimonial_basics_admin.php:1492
+msgid "Click this and italics will be used for the testimonial."
+msgstr "Haz clic aqui y podras utilizar letras en cursiva en el testimonio."
+
+#: includes/katb_testimonial_basics_admin.php:1416
+#: includes/katb_testimonial_basics_admin.php:1902
+msgid "Content Display Rotator Options"
+msgstr "Contenido a mostrar sobre opciones de rotacion"
+
+#: includes/katb_testimonial_basics_admin.php:1419
+#: includes/katb_testimonial_basics_admin.php:1497
+msgid "Select the time in mili-seconds 1000 ms = 1 sec."
+msgstr "Selecciona el tiempo en milisegundos 1000 ms = 1 seg."
+
+#: includes/katb_testimonial_basics_admin.php:1422
+#: includes/katb_testimonial_basics_admin.php:1500
+msgid "Selects a minimum height for all testimonials."
+msgstr "Selecciona una altura minima de todos los testimonios."
+
+#: includes/katb_testimonial_basics_admin.php:1423
+#: includes/katb_testimonial_basics_admin.php:1501
+msgid ""
+"Use this option to prevent the screen from growing or shrinking to "
+"accomodate each testimonials."
+msgstr ""
+"Utiliza esta opción para evitar que la pantalla aumente o disminuya su "
+"tamaño para acomodar cada testimonio."
+
+#: includes/katb_testimonial_basics_admin.php:1424
+#: includes/katb_testimonial_basics_admin.php:1502
+msgid ""
+"Tip: use excerpts and make sure the length keeps testimonials within the "
+"minimum height prescribed."
+msgstr ""
+"Consejo: utiliza extractos y asegurate de que la extension de los "
+"testimonios asegura el minimo de la altura prescrita."
+
+#: includes/katb_testimonial_basics_admin.php:1427
+#: includes/katb_testimonial_basics_admin.php:1505
+msgid "Select the transition effect for the slider."
+msgstr "Selecciona el efecto de transicion para el deslizador."
+
+#: includes/katb_testimonial_basics_admin.php:1429
+#: includes/katb_testimonial_basics_admin.php:1907
+msgid "Content Display Custom Options"
+msgstr "Contenido a mostrar con opciones personalizadas"
+
+#: includes/katb_testimonial_basics_admin.php:1432
+#: includes/katb_testimonial_basics_admin.php:1510
+msgid "To use formatted display select this box."
+msgstr "Para utilizar la pantalla con formato, selecciona esta casilla."
+
+#: includes/katb_testimonial_basics_admin.php:1433
+#: includes/katb_testimonial_basics_admin.php:1511
+msgid ""
+"If the Formatted Display box is checked a color style is applied to the "
+"testimonials, which can be customized."
+msgstr ""
+"Si está marcada la casilla formato de visualización se aplica un estilo de "
+"color a los testimonios, que pueden ser modificado para requisitos "
+"particulares."
+
+#: includes/katb_testimonial_basics_admin.php:1435
+#: includes/katb_testimonial_basics_admin.php:1513
+msgid "Colors"
+msgstr "Colores"
+
+#: includes/katb_testimonial_basics_admin.php:1436
+#: includes/katb_testimonial_basics_admin.php:1514
+msgid ""
+"Enter any hexdec color number preceded by a # mark or use the color picker"
+msgstr ""
+"Introduce cualquier numero de color hexdec precedido por un signo # o "
+"utiliza el selector de color"
+
+#: includes/katb_testimonial_basics_admin.php:1437
+#: includes/katb_testimonial_basics_admin.php:1515
+msgid "Select the color input cell you want to change."
+msgstr "Selecciona la celda del color que deseas cambiar."
+
+#: includes/katb_testimonial_basics_admin.php:1438
+#: includes/katb_testimonial_basics_admin.php:1516
+msgid "A color box appears with a saturation bar on the right."
+msgstr "Aparecera un cuadro de color con una barra de saturacion a la derecha."
+
+#: includes/katb_testimonial_basics_admin.php:1439
+#: includes/katb_testimonial_basics_admin.php:1517
+msgid "Drag the dot on the color box to select the color."
+msgstr "Arrastre el punto en el cuadro de color para seleccionar el color."
+
+#: includes/katb_testimonial_basics_admin.php:1440
+#: includes/katb_testimonial_basics_admin.php:1518
+msgid "Change the saturation with the sliding bar on the right."
+msgstr ""
+"Cambia la saturacion con la barra deslizante que se encuentra a la derecha."
+
+#: includes/katb_testimonial_basics_admin.php:1441
+#: includes/katb_testimonial_basics_admin.php:1519
+msgid "Click the Current Color Button when you are done."
+msgstr "Haz clic en el boton Color cuando hayas terminado."
+
+#: includes/katb_testimonial_basics_admin.php:1457
+msgid "Widget Display Options"
+msgstr "Opciones de widgets mostrados."
+
+#: includes/katb_testimonial_basics_admin.php:1460
+msgid ""
+"There are six layout options for the widget allowing flexibility for "
+"different themes. "
+msgstr ""
+"Existen seis opciones de diseño para la flexibilidad que permite widget para "
+"diferentes temas."
+
+#: includes/katb_testimonial_basics_admin.php:1461
+msgid "Try different ones, and ensure they work on all devices."
+msgstr ""
+"Probar los diferentes y asegurar que trabajan en todos los dispositivos."
+
+#: includes/katb_testimonial_basics_admin.php:1477
+msgid ""
+"If you wish to show the Group name or a Custom name for your testimonial, "
+"select this option."
+msgstr ""
+"Si deseas mostrar el nombre del grupo o un nombre personalizado para tu "
+"testimonio, selecciona esta opcion."
+
+#: includes/katb_testimonial_basics_admin.php:1478
+msgid ""
+"Then make sure the Custom Individual Review Name is filled out or Group "
+"Individual Review Name is selected - in the General Tab."
+msgstr ""
+"Luego asegurate de que el Nombre Personalizado fue completado o que el Grupo "
+"de Nombre Personalizado fue seleccionado, en la pestaña General."
+
+#: includes/katb_testimonial_basics_admin.php:1482
+msgid "You can then optionally display website, location, and date."
+msgstr ""
+"Tu puedes elegir mostrar en forma opcional, website, ubicacion geografica y "
+"fecha"
+
+#: includes/katb_testimonial_basics_admin.php:1494
+#: includes/katb_testimonial_basics_admin.php:1923
+msgid "Widget Display Rotator Options"
+msgstr "Opciones de visualización Widget rotativo"
+
+#: includes/katb_testimonial_basics_admin.php:1507
+#: includes/katb_testimonial_basics_admin.php:1928
+msgid "Widget Display Custom Options"
+msgstr "Opciones de visualización de Widget personalizado"
+
+#: includes/katb_testimonial_basics_admin.php:1539
+msgid "Why is pagination not working?"
+msgstr "¿Por qué es la paginación no funciona?"
+
+#: includes/katb_testimonial_basics_admin.php:1540
+msgid "Most likely it is because you have set them to display by=\"random\"."
+msgstr ""
+"Lo más probable es porque usted los ha configurado para mostrar by = \"al "
+"azar\"."
+
+#: includes/katb_testimonial_basics_admin.php:1541
+msgid "Set them to display by=\"date\" or by=\"order\"."
+msgstr "Colóquelos para mostrar by = \"fecha\" o = \"orden\"."
+
+#: includes/katb_testimonial_basics_admin.php:1542
+msgid "Pagination does not work for random selections."
+msgstr "La paginación no funciona para las selecciones aleatorias."
+
+#: includes/katb_testimonial_basics_admin.php:1544
+msgid "Why are users not allowed to upload photos?"
+msgstr "¿Por que no se les permite a los usuarios subir fotos?"
+
+#: includes/katb_testimonial_basics_admin.php:1545
+msgid "Users are not allowed to upload photos for security reasons."
+msgstr ""
+"Los usuarios no están autorizados a subir fotos por razones de seguridad."
+
+#: includes/katb_testimonial_basics_admin.php:1546
+msgid ""
+"Allowing anyone who is not logged in to upload files to your WordPress site "
+"is a very risky practice."
+msgstr ""
+"Permitir que cualquier persona que no este registrada pueda subir archivos a "
+"su sitio WordPress es una practica muy arriesgada."
+
+#: includes/katb_testimonial_basics_admin.php:1547
+msgid ""
+"The Gravatar system is very simple to register and the safe way to get user "
+"photos in their testimonials."
+msgstr ""
+"El sistema Gravatar para registrarse y conseguir fotos de los usuarios en "
+"forma segura para que aparezcan en sus testimonios, es muy sencillo."
+
+#: includes/katb_testimonial_basics_admin.php:1548
+msgid ""
+"The Admin or Editor can log in and upload photos from the Edit Testimonials "
+"Panel."
+msgstr ""
+"El administrador o editor pueden entrar y subir fotos desde el panel de "
+"edicion de Testimonios."
+
+#: includes/katb_testimonial_basics_admin.php:1550
+msgid "My testimonial is not displaying."
+msgstr "Mi testimonio no se esta mostrando."
+
+#: includes/katb_testimonial_basics_admin.php:1551
+msgid "Go in to the edit testimonials panel and make sure it is approved."
+msgstr "Ir al panel de testimonios editados y asegurate de que esta aprobado."
+
+#: includes/katb_testimonial_basics_admin.php:1553
+msgid "The widget labels in the input boxes do not disappear when selected."
+msgstr ""
+"Las etiquetas en las cajas de entrada del widget no desaparecen cuando se "
+"selecciona."
+
+#: includes/katb_testimonial_basics_admin.php:1554
+msgid "They must be deleted."
+msgstr "Ellos deben ser borrados."
+
+#: includes/katb_testimonial_basics_admin.php:1555
+msgid ""
+"It is set up this way to keep the entry for editing in the event of a "
+"submission error."
+msgstr ""
+"Se establecio de esta manera a fin de mantener la entrada en edicion en caso "
+"de producirse un error al tildar."
+
+#: includes/katb_testimonial_basics_admin.php:1765
+msgid "Show your appreciation!"
+msgstr "Gracias por tu apreciacion!"
+
+#: includes/katb_testimonial_basics_admin.php:1779
+msgid " : Plugin Site"
+msgstr ": Sitio Plugin"
+
+#: includes/katb_testimonial_basics_admin.php:1780
+msgid " : Author Site"
+msgstr ": Sitio autor"
+
+#: includes/katb_testimonial_basics_admin.php:1782
+msgid "Author Site : "
+msgstr "Autor del sitio:"
+
+#: includes/katb_testimonial_basics_admin.php:1783
+msgid "Plugin Site : "
+msgstr "Sitio del Plugin:"
+
+#: includes/katb_testimonial_basics_admin.php:1860
+msgid "I use the term Schema a bit loosley."
+msgstr ""
+"Yo utilizo el termino esquema un poco Loosley (no se lo que significa)."
+
+#: includes/katb_testimonial_basics_admin.php:1861
+msgid "It refers to"
+msgstr "Se refiere a"
+
+#: includes/katb_testimonial_basics_admin.php:1862
+msgid "which is a"
+msgstr "que es un"
+
+#: includes/katb_testimonial_basics_admin.php:1863
+msgid ""
+"collaboration by Google, Microsoft and Yahoo to improve the web by creating "
+"a structured data markup schema supported by major search engines."
+msgstr ""
+"Colaboramos con Google, Microsoft y Yahoo para mejorar la web mediante la "
+"creacion de un esquema de marcado de datos estructurado respaldado por los "
+"principales motores de busqueda."
+
+#: includes/katb_testimonial_basics_admin.php:1864
+msgid ""
+"On-page markup helps search engines understand the information on web pages "
+"and provide richer results."
+msgstr ""
+"El marcado en la pagina , xml, ayuda a los motores de busqueda a entender la "
+"informacion sobre las paginas web y proporciona resultados mas ricos."
+
+#: includes/katb_testimonial_basics_admin.php:1865
+msgid ""
+"A shared markup vocabulary makes it easier for webmasters to decide on a "
+"markup schema and get maximum benefit for their efforts."
+msgstr ""
+"El uso de xml facilita a los webmasters el poder decidir sobre un esquema de "
+"marcas y obtener asi el maximo beneficio sobre sus esfuerzos."
+
+#: includes/katb_testimonial_basics_admin.php:1866
+msgid ""
+"You can now choose to display testimonials in a structured data format, "
+"which should help search results for your site."
+msgstr ""
+"Ahora puedes optar por mostrar testimonios en un formato de datos "
+"estructurado, lo que deberia ayudar a los resultados de busqueda en tu sitio."
+
+#: includes/katb_testimonial_basics_admin.php:1881
+msgid "Content Form Input Options"
+msgstr "Contenido del formulario de Opciones de entrada"
+
+#: includes/katb_testimonial_basics_admin.php:1886
+msgid "Widget Form Input Options"
+msgstr "Widget de formulario de opciones de entrada"
+
+#: includes/katb_testimonial_basics_admin.php:1898
+msgid ""
+"Content display refers to displaying your testimonials in the content area "
+"of your pages and posts."
+msgstr ""
+"La visualizacion de contenido se refiere a la visualizacion de tus "
+"testimonios en el area de contenido de tus paginas y mensajes."
+
+#: includes/katb_testimonial_basics_admin.php:1903
+msgid "You can display up to 5 content rotators on one page."
+msgstr "Tu puedes mostrar hasta 5 testimonios rotativos sobre una página."
+
+#: includes/katb_testimonial_basics_admin.php:1918
+msgid "Widget Display General Options"
+msgstr "Mostrar Widget de Opciones generales"
+
+#: includes/katb_testimonial_basics_admin.php:1924
+msgid "You can display up to 5 widget rotators on one page."
+msgstr "Tu puedes mostrar hasta 5 widgets rotativos sobre una página."
+
+#: includes/katb_testimonial_basics_admin.php:1966
+msgid "Testimonial Basics - Backup or Restore Your Testimonials"
+msgstr "Testimoniales Basics - copia de seguridad o restaurar sus testimonios"
+
+#: includes/katb_testimonial_basics_admin.php:1970
+#: includes/katb_testimonial_basics_admin.php:1978
+msgid "Backup Testimonials"
+msgstr "Testimonios de copia de seguridad"
+
+#: includes/katb_testimonial_basics_admin.php:1971
+msgid ""
+"You can back up all your testimonials to an xml file, and it will be "
+"downloaded to your computer."
+msgstr ""
+"Usted puede subir a un archivo xml todos sus testimonios, y se descargará en "
+"su computadora."
+
+#: includes/katb_testimonial_basics_admin.php:1974
+msgid "Click to backup testimonials"
+msgstr "Haga clic en copia de seguridad testimonios"
+
+#: includes/katb_testimonial_basics_admin.php:1981
+#: includes/katb_testimonial_basics_admin.php:2000
+msgid "Restore Testimonials"
+msgstr "Restaurar testimonios"
+
+#: includes/katb_testimonial_basics_admin.php:1982
+msgid "You can restore your testimonials from a backup xml file."
+msgstr ""
+"Puede restaurar sus testimonios desde un archivo de copia de seguridad xml."
+
+#: includes/katb_testimonial_basics_admin.php:1983
+msgid "Maximum file size is 2MB."
+msgstr "Tamaño máximo de archivo es de 2MB."
+
+#: includes/katb_testimonial_basics_admin.php:1984
+msgid ""
+"If your backup file is too large it will have to be broken up into parts."
+msgstr ""
+"Si tu archivo de respaldo es demasiado grande tendrá que dividirse en partes."
+
+#: includes/katb_testimonial_basics_admin.php:1985
+msgid ""
+"For example to break up your file into 2 files, use a text editor such as "
+"Notepad or Notepad++."
+msgstr ""
+"Por ejemplo, para romper el archivo en 2 archivos, utilice un editor de "
+"texto como el Bloc de notas o Notepad ++."
+
+#: includes/katb_testimonial_basics_admin.php:1986
+msgid ""
+"Make two copies of the full backup file and append _part1 and _part2 to the "
+"file names."
+msgstr ""
+"Haga dos copias del archivo de copia de seguridad completa y añadir los "
+"nombres de los archivos _part1 y _part2."
+
+#: includes/katb_testimonial_basics_admin.php:1987
+msgid "Remove the bottom half of the testimonials from the first file."
+msgstr ""
+"Quite la parte inferior la mitad de los testimonios del primer archivo."
+
+#: includes/katb_testimonial_basics_admin.php:1988
+msgid "Remove the top half of the testimonials from the second file."
+msgstr "Quite la mitad superior de los testimonios del segundo archivo."
+
+#: includes/katb_testimonial_basics_admin.php:1989
+msgid ""
+"Note that all testimonials are wrapped in &lt;testimonials&gt;&lt;/"
+"testimonials&gt; tags. Do not delete these tags."
+msgstr ""
+"Tenga en cuenta que los testimonios están envueltos en &lt; testimonios &gt;"
+"&lt; / testimonios &gt; etiquetas. No elimine estas etiquetas."
+
+#: includes/katb_testimonial_basics_admin.php:1990
+msgid ""
+"Each testimonial is wrapped in &lt;testimonial&gt;&lt;/testimonial&gt; tags."
+msgstr ""
+"Cada testimonio está envuelto en &lt; testimonial &gt;&lt; / testimonial "
+"&gt; etiquetas."
+
+#: includes/katb_testimonial_basics_admin.php:1991
+msgid ""
+"To remove a testimonial delete everything between the &lt;testimonial&gt;"
+"&lt;/testimonial&gt; tags, including the tags."
+msgstr ""
+"Para quitar un testimonio borrar todo entre el testimonio de &lt; &gt;&lt; / "
+"testimonial &gt; etiquetas, incluidas las etiquetas."
+
+#: includes/katb_testimonial_basics_admin.php:1995
+msgid "Select an xml file"
+msgstr "Seleccione un archivo xml"
+
+#: includes/katb_testimonial_basics_admin.php:2003
+msgid "Other Notes/Tips"
+msgstr "Otras Notas"
+
+#: includes/katb_testimonial_basics_admin.php:2005
+msgid "If the URL changed, uploaded photos will have to be re-uploaded."
+msgstr "Si el URL cambia, subidos fotos tendrá que volver a cargarse."
+
+#: includes/katb_testimonial_basics_admin.php:2006
+msgid "Testimonials with the same ID will not be restored."
+msgstr "Testimonios con el mismo ID no se restaurarán."
+
+#: includes/katb_testimonial_basics_admin.php:2059
+#, php-format
+msgid ""
+"There was an error importing the logs. File type detected: '%s'. 'text/xml' "
+"expected"
+msgstr ""
+"Hubo un error al importar los registros. Detectados de tipo de archivo: "
+"'%s'. 'text/xml' esperada"
+
+#: includes/katb_testimonial_basics_admin.php:2064
+#, php-format
+msgid "File size too large (%s). Maximum 2MB"
+msgstr "Archivo tamaño demasiado grande (%s). Máximo 2MB"
+
+#: includes/katb_testimonial_basics_admin.php:2068
+#, php-format
+msgid "Error encountered: %d"
+msgstr "Encontró el error:% d"
+
+#: includes/katb_testimonial_basics_admin.php:2313
+msgid "1 testimonial successfully imported"
+msgstr "1 testimonio importado con éxito"
+
+#: includes/katb_testimonial_basics_admin.php:2317
+#, php-format
+msgid "%d testimonials successfully imported"
+msgstr "%d testimonios importados con éxito"
+
+#: includes/katb_testimonial_basics_admin.php:2320
+msgid " No testimonials were imported - must be a problem somewhere :("
+msgstr ""
+"No hay testimonios fueron importados - debe ser un problema en algún lado :("
+
+#: widgets/katb_display_testimonial_widget.php:32
+msgid "Display Testimonials."
+msgstr "Testimonios mostrados."
+
+#: widgets/katb_display_testimonial_widget.php:34
+msgid "Testimonial Display Widget"
+msgstr "Widget de testimonios mostrados"
+
+#: widgets/katb_display_testimonial_widget.php:60
+msgid "Title : "
+msgstr "Titulo :"
+
+#: widgets/katb_display_testimonial_widget.php:62
+msgid "Number : "
+msgstr "Número:"
+
+#: widgets/katb_display_testimonial_widget.php:63
+msgid "By : "
+msgstr "Por:"
+
+#: widgets/katb_display_testimonial_widget.php:70
+msgid "IDs : "
+msgstr "IDs:"
+
+#: widgets/katb_display_testimonial_widget.php:71
+msgid "Rotate : "
+msgstr "Rotar:"
+
+#: widgets/katb_display_testimonial_widget.php:77
+msgid "Layout : "
+msgstr "Widget presentacion de opciones:"
+
+#: widgets/katb_display_testimonial_widget.php:94
+msgid "Use Schema : "
+msgstr "Utiliza el esquema markup:"
+
+#: widgets/katb_input_testimonial_widget.php:52
+msgid "Allow a user to input a testimonial."
+msgstr "Rol de usuario con permiso para escribir un comentario."
+
+#: widgets/katb_input_testimonial_widget.php:54
+msgid "Testimonial Input Widget"
+msgstr "Widget de entrada para testimonios"
+
+#: widgets/katb_input_testimonial_widget.php:77
+msgid "Title :"
+msgstr "Titulo: "
+
+#: widgets/katb_input_testimonial_widget.php:78
+msgid "Group :"
+msgstr "Grupo:"
+
+#: widgets/katb_input_testimonial_widget.php:79
+msgid "Form No :"
+msgstr "Formar No:"
+
+#: widgets/katb_input_testimonial_widget.php:217
+#: widgets/katb_input_testimonial_widget.php:218
+msgid "Author required"
+msgstr "Autor requerido"
+
+#: widgets/katb_input_testimonial_widget.php:231
+#: widgets/katb_input_testimonial_widget.php:232
+msgid "Valid email required "
+msgstr "Requerido mail válida"
+
+#: widgets/katb_input_testimonial_widget.php:248
+#: widgets/katb_input_testimonial_widget.php:249
+msgid "Website required "
+msgstr "Sitio web requerido"
+
+#: widgets/katb_input_testimonial_widget.php:264
+#: widgets/katb_input_testimonial_widget.php:265
+msgid "Location required "
+msgstr "Ubicación requerida"
+
+#: widgets/katb_input_testimonial_widget.php:280
+#: widgets/katb_input_testimonial_widget.php:281
+#: widgets/katb_input_testimonial_widget.php:296
+#: widgets/katb_input_testimonial_widget.php:297
+#: widgets/katb_input_testimonial_widget.php:335
+#: widgets/katb_input_testimonial_widget.php:336
+msgid "required "
+msgstr "requerido"
+
+#: widgets/katb_input_testimonial_widget.php:323
+#: widgets/katb_input_testimonial_widget.php:324
+msgid "Captcha invalid"
+msgstr "inválida Captcha"
+
+#: widgets/katb_input_testimonial_widget.php:358
+#: widgets/katb_input_testimonial_widget.php:359
+msgid "Testimonial required"
+msgstr "Testimonial requerida"
+
+#: widgets/katb_input_testimonial_widget.php:434
+msgid "Error"
+msgstr "Error"
+
+#: widgets/katb_input_testimonial_widget.php:553
+msgid "Add a Photo? "
+msgstr "Agregas una foto?"
+
+#~ msgid "Use CSS instead of jQuery"
+#~ msgstr "Utilizar CSS en lugar de jQuery"
+
+#~ msgid "Group Individual Review Name"
+#~ msgstr "Nombre del grupo individual de usuarios que comenten"
+
+#~ msgid "Use group name for individual review name"
+#~ msgstr "Utilizar un nombre de grupo para comentarios individuales"
+
+#~ msgid "If not using the Group Name, enter one here"
+#~ msgstr "Si no esta usando el Nombre de Grupo, ingrese uno aqui"
+
+#~ msgid "Default: Author*"
+#~ msgstr "Predeterminado: Autor*"
+
+#~ msgid "Default: Email*"
+#~ msgstr "Predeterminado: Email"
+
+#~ msgid "Default: Website"
+#~ msgstr "Predeterminado: Tu web o tu ciberperfil"
+
+#~ msgid "Default: Location"
+#~ msgstr "Predeterminado: Ubicacion geografica"
+
+#~ msgid "Default: Rating"
+#~ msgstr "Predeterminado: Rating"
+
+#~ msgid "Default: Testimonial*"
+#~ msgstr "Predeterminado: Testimonio*"
+
+#~ msgid "Default: Enter Captcha"
+#~ msgstr "Por defecto: Introducir el Captcha"
+
+#~ msgid "Default: Submit"
+#~ msgstr "Predeterminado: Enviar"
+
+#~ msgid "Default: Reset"
+#~ msgstr "Predeterminado: Reiniciar"
+
+#~ msgid "Default: Author-Required"
+#~ msgstr "Predeterminado: Autor-Se requiere"
+
+#~ msgid "Default: Rating-Optional"
+#~ msgstr "Predeterminado:Rating-Opcional"
+
+#~ msgid "Default: Testimonial-Required"
+#~ msgstr "Predeterminado: Testimonio-Se requiere"
+
+#~ msgid "Optional-leave blank if not using"
+#~ msgstr "Opcional: dejar en blanco si no se utiliza"
+
+#~ msgid "Use schema name options without the schema"
+#~ msgstr "Utiliza las opciones nombradas en el esquema sin el propio esquema"
+
+#~ msgid ""
+#~ "The options for display are the same as in the shortcode explained above"
+#~ msgstr ""
+#~ "Las opciones para la visualizacion son las mismas que en el codigo corto "
+#~ "se ha explicado anteriormente"
+
+#~ msgid "Group Aggregate Review Name"
+#~ msgstr "Agregar el nombre del grupo de opinion"
+
+#~ msgid ""
+#~ "Check this to use the Group name you have set up for the testimonial "
+#~ "title."
+#~ msgstr ""
+#~ "Active esta opcion para utilizar el nombre del grupo que ha configurado "
+#~ "para englobar a los titulos de testimonios."
+
+#~ msgid ""
+#~ "only for the input widget, labels can be displayed inside or above the "
+#~ "input boxes"
+#~ msgstr ""
+#~ "Sólo para el widget de entrada, las etiquetas pueden visualizarse dentro "
+#~ "o encima de los cuadros de entrada"
+
+#~ msgid "http://kevinsspace.ca/testimonial-basics-wordpress-plugin/"
+#~ msgstr "http://kevinsspace.ca/testimonial-basics-wordpress-plugin/"
+
+#~ msgid ""
+#~ "This plugin facilitates easy management of customer testimonials. The "
+#~ "user can set up an input form in a page or in a widget, and display all "
+#~ "or selected testimonials in a page or a widget. The plug in is very easy "
+#~ "to use and modify."
+#~ msgstr ""
+#~ "El usuario puede configurar un formulario de entrada en una pagina o un "
+#~ "widget, y mostrar todos los testimonios o bien solo los seleccionados."
+
+#~ msgid "Kevin Archibald"
+#~ msgstr "Kevin Archibald"
+
+#~ msgid "http://kevinsspace.ca"
+#~ msgstr "http://kevinsspace.ca"
+
+#~ msgid ""
+#~ "If the Formatted Display box is checked a 3D style is applied to the "
+#~ "testimonials, which can be customized."
+#~ msgstr ""
+#~ "Si la casilla Mostrar la pagina formateada esta marcada, un estilo 3D se "
+#~ "aplicara a los testimonios, los cuales pueden ser personalizados."
+
+#~ msgid "Excerpt length in characters"
+#~ msgstr "Numero de caracteres en el extracto"
+
+#~ msgid "default: 400"
+#~ msgstr "Por defecto: 400"
+
+#~ msgid "default: Verdana"
+#~ msgstr "Predeterminado: Verdana"
+
+#~ msgid "Background Wrap Color"
+#~ msgstr "Fondo de color"
+
+#~ msgid "Testimonial Box Color"
+#~ msgstr "Color del campo de testimonios"
+
+#~ msgid "default: #DBDBDB"
+#~ msgstr "Por defecto: #DBDBDB"
+
+#~ msgid "default: 250"
+#~ msgstr "Por defecto: 250"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Photo"
+#~ msgstr "Foto"
+
+#~ msgid "Author Information"
+#~ msgstr "Informacion del autor"
+
+#~ msgid "Use popup thank you"
+#~ msgstr "Utilice emergente gracias"
+
+#~ msgid ""
+#~ "Check to have a popup javascript message displayed after the testimonial "
+#~ "was submitted."
+#~ msgstr ""
+#~ "Compruebe que tener una ventana emergente javascript se presentó después "
+#~ "de que el mensaje que se muestra testimonial."
+
+#~ msgid "You can place it at the top or bottom."
+#~ msgstr "Tu puedes colocarlo en la parte superior o en un boton."
+
+#~ msgid ""
+#~ "You can use excerpts with the specified character length to display your "
+#~ "testimonials."
+#~ msgstr ""
+#~ "Tu puedes utilizar extractos con una cantidad de caracteres especificados "
+#~ "para mostrar tus testimonios."
+
+#~ msgid ""
+#~ "When excerpts are selected, the testimonial is limited to the characters "
+#~ "input."
+#~ msgstr ""
+#~ "Cuando se seleccionan extractos, el testimonio se limita a la entrada de "
+#~ "caracteres."
+
+#~ msgid ""
+#~ "A user can then click a ...more link to display a pop-up of the entire "
+#~ "testimonial."
+#~ msgstr ""
+#~ "Un usuario puede hacer clic en ... y enlazar a un pop-up que muestre un "
+#~ "testimonio completo."
+
+#~ msgid ""
+#~ "There are very few differences between the Content Display Options and "
+#~ "the Widget Display Options."
+#~ msgstr ""
+#~ "Hay muy pocas diferencias entre las opciones de visualizacion de "
+#~ "contenido y las opciones de visualizacion de widgets."
+
+#~ msgid ""
+#~ "Pagination does not apply for widgets, and there is no testimonial wrap "
+#~ "for formatting."
+#~ msgstr ""
+#~ "La paginacion no se aplica para los widgets, y si no hay testimonios para "
+#~ "dar formato."
+
+#~ msgid "The user is referred to the Content Display section for help."
+#~ msgstr "El usuario es dirigido a la seccion de contenido de ayuda."
+
+#~ msgid "Why are testimonials not automatically approved?"
+#~ msgstr "¿Por que los testimonios no son aprobados de forma automatica?"
+
+#~ msgid ""
+#~ "If you want testimonials on your site then you are concerned about what "
+#~ "clients think of your business."
+#~ msgstr ""
+#~ "Si quieres testimonios en tu sitio es porque estas interesado en la "
+#~ "opinion de tus clientes."
+
+#~ msgid ""
+#~ "So it is probably a good idea to check the testimonial first and then "
+#~ "approve it."
+#~ msgstr ""
+#~ "Por lo que probablemente es una buena idea revisar primero el testimonio "
+#~ "y luego aprobarlo."
+
+#~ msgid "The widget labels do not disappear when selected."
+#~ msgstr "Los widgets no desaparecen cuando la opcion esta seleccionada."
+
+#~ msgid "Group Label"
+#~ msgstr "Grupo de etiquetas"
+
+#~ msgid "Default: Group"
+#~ msgstr "Predeterminado: Grupo"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "default: 7000 ms"
+#~ msgstr "Por defecto: 7000 ms"
+
+#~ msgid "default: fade"
+#~ msgstr "Predeterminado: desvanecer el texto"
+
+#~ msgid "Submitted-Thankyou!"
+#~ msgstr "Enviar - Gracias!!"
+
+#~ msgid "Tu eres parte de "
+#~ msgstr "Tu eres parte de "
+
+#~ msgid "El sabernos apoyados por ti, nos da fuerzas para seguir adelante"
+#~ msgstr "El sabernos apoyados por ti, nos da fuerzas para seguir adelante"
+
+#~ msgid ""
+#~ "Cuenta tu experiencia, compartela y atrae Luz al camino Canalizandoluz "
+#~ "Siempre!!"
+#~ msgstr ""
+#~ "Cuenta tu experiencia, compartela y atrae Luz al camino Canalizandoluz "
+#~ "Siempre!!"
+
+#~ msgid "sobre"
+#~ msgstr "sobre"
+
+#~ msgid "votos"
+#~ msgstr "votos"
+
+#~ msgid "sin no reviews yet"
+#~ msgstr "sin opiniones aun"
+
+#~ msgid "estrellas"
+#~ msgstr "estrellas"
+
+#~ msgid "opiniones"
+#~ msgstr "opiniones"
+
+#~ msgid "Verification"
+#~ msgstr "Verificacion"
+
+#~ msgid "Enter Captcha Letters"
+#~ msgstr "Ingresa las letras del Captcha"
+
+#~ msgid "Group"
+#~ msgstr "Grupo"
+
+#~ msgid "Order"
+#~ msgstr "Orden"
+
+#~ msgid "Appr"
+#~ msgstr "Aprob"
