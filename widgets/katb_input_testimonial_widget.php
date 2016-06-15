@@ -13,13 +13,6 @@ License: GPLv3
  * @author		Kevin Archibald <www.kevinsspace.ca/contact/>
  * Testimonial Basics is distributed under the terms of the GNU GPL
 */
-/** ----------- Session Start ----------------------------------------------
- * Start session if not already started. The session is required
- * for passing the password from katb_captcha.php to the input
- * form data validation
- * ------------------------------------------------------------------------- */
-if(!isset($_SESSION)) session_start();
- 
 /** ------------- Register Widget ---------------------------------------
  *
  * The widget is registered using the widgets_init action hook that fires 

@@ -17,10 +17,98 @@
 .katb_test_wrap,.katb_test_wrap_basic,
 .katb_grid_wrap,.katb_grid_wrap_basic,
 .katb_test_wrap_side_meta,.katb_test_wrap_basic_side_meta,
+.katb_widget_wrap,.katb_widget_wrap_basic,
+.katb_widget_rotate.katb_widget_rotator_wrap,
+.katb_widget_rotate.katb_widget_rotator_wrap_basic,
 .katb_popup_wrap,.katb_paginate,
 .katb_schema_summary_wrap_basic,.katb_schema_summary_wrap_basic_side_meta,
 .katb_schema_summary_wrap,.katb_schema_summary_wrap_side_meta
 { font-size: 16px; }
+/* headers */
+.katb_test_wrap h1,.katb_test_wrap_basic h1,
+.katb_grid_wrap h1,.katb_grid_wrap_basic h1,
+.katb_test_wrap_side_meta h1,.katb_test_wrap_basic_side_meta h1,
+.katb_widget_wrap h1,.katb_widget_wrap_basic h1,
+.katb_widget_rotate.katb_widget_rotator_wrap h1,
+.katb_widget_rotate.katb_widget_rotator_wrap_basic h1,
+.katb_popup_wrap h1
+{ 
+	font-size: 1.1em; 
+	padding: 0;
+	margin: 0;
+	line-height: 1em;
+	font-weight: bold;
+}
+.katb_test_wrap h2,.katb_test_wrap_basic h2,
+.katb_grid_wrap h2,.katb_grid_wrap_basic h2,
+.katb_test_wrap_side_meta h2,.katb_test_wrap_basic_side_meta h2,
+.katb_widget_wrap h2,.katb_widget_wrap_basic h2,
+.katb_widget_rotate.katb_widget_rotator_wrap h2,
+.katb_widget_rotate.katb_widget_rotator_wrap_basic h2,
+.katb_popup_wrap h2
+{ 
+	font-size: 1.1em; 
+	padding: 0;
+	margin: 0;
+	line-height: 1em;
+	font-weight: bold;
+}
+.katb_test_wrap h3,.katb_test_wrap_basic h3,
+.katb_grid_wrap h3,.katb_grid_wrap_basic h3,
+.katb_test_wrap_side_meta h3,.katb_test_wrap_basic_side_meta h3,
+.katb_widget_wrap h3,.katb_widget_wrap_basic h3,
+.katb_widget_rotate.katb_widget_rotator_wrap h3,
+.katb_widget_rotate.katb_widget_rotator_wrap_basic h3,
+.katb_popup_wrap h3
+{ 
+	font-size: 1em; 
+	padding: 0;
+	margin: 0;
+	line-height: 1em;
+	font-weight: bold;
+}
+.katb_test_wrap h4,.katb_test_wrap_basic h4,
+.katb_grid_wrap h4,.katb_grid_wrap_basic h4,
+.katb_test_wrap_side_meta h4,.katb_test_wrap_basic_side_meta h4,
+.katb_widget_wrap h4,.katb_widget_wrap_basic h4,
+.katb_widget_rotate.katb_widget_rotator_wrap h4,
+.katb_widget_rotate.katb_widget_rotator_wrap_basic h4,
+.katb_popup_wrap h4
+{ 
+	font-size: 0.9em; 
+	padding: 0;
+	margin: 0;
+	line-height: 1em;
+	font-weight: bold;
+}
+.katb_test_wrap h5,.katb_test_wrap_basic h5,
+.katb_grid_wrap h5,.katb_grid_wrap_basic h5,
+.katb_test_wrap_side_meta h5,.katb_test_wrap_basic_side_meta h5,
+.katb_widget_wrap h5,.katb_widget_wrap_basic h5,
+.katb_widget_rotate.katb_widget_rotator_wrap h5,
+.katb_widget_rotate.katb_widget_rotator_wrap_basic h5,
+.katb_popup_wrap h5
+{ 
+	font-size: 0.8em; 
+	padding: 0;
+	margin: 0;
+	line-height: 1em;
+	font-weight: bold;
+}
+.katb_test_wrap h6,.katb_test_wrap_basic h6,
+.katb_grid_wrap h6,.katb_grid_wrap_basic h6,
+.katb_test_wrap_side_meta h6,.katb_test_wrap_basic_side_meta h6,
+.katb_widget_wrap h6,.katb_widget_wrap_basic h6,
+.katb_widget_rotate.katb_widget_rotator_wrap h6,
+.katb_widget_rotate.katb_widget_rotator_wrap_basic h6,
+.katb_popup_wrap h6
+{ 
+	font-size: 0.7em; 
+	padding: 0;
+	margin: 0;
+	line-height: 1em;
+	font-weight: bold;
+}
 
 /* Basic Formatted Standard Layout Styles 
  ========================================================== */
@@ -1223,12 +1311,10 @@
     border-radius: 3px 3px 3px 3px;
     color: #333333;
     display: none;
-	/*font-size: 14px;*/
-    position: fixed;
+   	position: fixed!important;
     overflow: auto;
     top: 25%;
     bottom: 25%;
-
     left: 10%;
     width: 70%;
     z-index: 10001;

@@ -35,6 +35,12 @@ Testimonial Basics is a full featured testimonial management plugin.
 * translations : French, Dutch, German, Spanish
 * RTL compatible
 
+== Upgrade Notice ==
+* This is a major Upgrade for Testimonial Basics.
+* Backup your database and testimonials before upgrading.
+* go through your site to ensure all testimonials and input forms are being displayed.
+* Check that your widgets are working and re install if there are problems.
+
 == Installation ==
 
 1. Upload Testimonial Basics to the plugin directory 
@@ -129,7 +135,9 @@ Users are not allowed to upload photos because it is a security issue. Use of gr
 * Updated contextual help documentation
 * Fixed popups so they are not set up if not required
 * fixed bug in Edit Testimonials Panel for deleting single testimonials
+* Fixed bug in popup becoming popunder in themes that use postion:relative styles. This was fixed by adding a script that moves all pupup sections to after the body tag.
 * Updated Translations
+
 
 = 4.2.3 =
 * Fixed data valdiation for rating adding '0.0' if not used. This was causing the insert to fail in the shortcode. Fixed the widget as well.

@@ -408,7 +408,7 @@ function katb_setup_popup ( $i, $katb_tdata, $gravatar_or_photo, $source ) {
 	$length = 1000;//just to be sure take excerpts out of the display
 	
 	?>
-		
+	<div id="popwrap_katb_<?php echo $source; ?>_<?php echo sanitize_text_field( $katb_tdata[$i]['tb_id'] ); ?>">
 	<div class="katb_topopup" id="katb_<?php echo $source; ?>_<?php echo sanitize_text_field( $katb_tdata[$i]['tb_id'] ); ?>">
 	
 		<div class="katb_close"></div>
@@ -453,9 +453,10 @@ function katb_setup_popup ( $i, $katb_tdata, $gravatar_or_photo, $source ) {
 	<div class="katb_loader"></div>
 	
 	<div class="katb_excerpt_popup_bg" id="katb_<?php echo $source; ?>_<?php echo sanitize_text_field( $katb_tdata[$i]['tb_id'] ); ?>_bg"></div>
-	
+	</div>
 	<?php return;	
 }
+add_action('katb_popup_html','katb_setup_popup');
 
 /** EXCERPT FILTER
  * @Author: Boutros AbiChedid
@@ -1695,8 +1696,6 @@ function katb_wp_mail_content_type(){
  * 
  */
 function katb_bw_captcha( $form_source, $form_no ){
-	 //Start session if not already started
-	if(!isset($_SESSION)) session_start();
 
 	// Set some important CAPTCHA constants
 	$number_characters = 6; // number of characters in pass-phrase
@@ -1765,9 +1764,6 @@ function katb_bw_captcha( $form_source, $form_no ){
  * 
  */
 function katb_color_captcha( $form_source, $form_no ){
-	
-	//Start session if not already started
-	if(!isset($_SESSION)) session_start();
 	
 	// Set some important CAPTCHA constants
 	$number_characters = 5; // number of characters in pass-phrase
