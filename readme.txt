@@ -1,14 +1,14 @@
 === Testimonial Basics ===
 Contributors: kevinhaig
 Donate link: http://kevinsspace.ca/testimonial-basics-wordpress-plugin/
-Tags: testimonial,testimonials,praise,user comments,widgets,translation-ready
+Tags: testimonials,ratings,reviews
 Requires at least: 4.3
 Tested up to: 4.5.2
 Stable tag: 4.3.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/quick-guide-gplv3.html
 
-Manage testimonials for your WordPress site.
+Testimonial Basics is an awesome full featured plugin for managing testimonials on your site. No paid upgrades offered or required. There are extensive options to collect and display testimonials for your business.
 
 == Description ==
 
@@ -40,6 +40,7 @@ Testimonial Basics is a full featured testimonial management plugin.
 * Backup your database and testimonials before upgrading.
 * go through your site to ensure all testimonials and input forms are being displayed.
 * Check that your widgets are working and re install if there are problems.
+* Take the time to go through the options, there are new features you may want to use.
 
 == Installation ==
 
@@ -76,15 +77,17 @@ Users are not allowed to upload photos because it is a security issue. Use of gr
 
 == Screenshots ==
 
-1. Formatted Display Example
+1. Option Panel
 
-2. Input Page Example
+2. Edit Panel
 
-3. Edit Testimonials Admin Panel
+3. Content Display Layouts
 
-4. Options Panel
+4. Content Display Mosaic
 
-5. Testimonials Example Page
+5. Widjet Display Layouts
+
+6. Input forms
 
 == Licensing ==
 * Copyright (C) 2016 kevinhaig kevinsspace.ca

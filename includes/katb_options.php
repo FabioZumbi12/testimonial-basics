@@ -381,7 +381,7 @@ function katb_get_option_parameters() {
 			'description' => __('Default: unchecked','testimonial-basics'),
 			'section' => 'general',
 			'tab' => 'input',
-			'default' => 0,
+			'default' => 1,
 			'class' => 'checkbox'
 		),
 		'katb_require_custom1_input' => array(
@@ -401,7 +401,7 @@ function katb_get_option_parameters() {
 			'description' => __('Default: unchecked','testimonial-basics'),
 			'section' => 'general',
 			'tab' => 'input',
-			'default' => 0,
+			'default' => 1,
 			'class' => 'checkbox'
 		),
 		'katb_require_custom2_input' => array(
