@@ -89,8 +89,8 @@ function katb_testimonial_basics_create_menu() {
 	 * $position - (integer) (optional) The position in the menu order this menu should appear. NOT USED
 	 */
 	add_menu_page( 
-		__('Testimonial Basics','testimonial-basics'),	// $page_title - (string) (required) The text to be displayed in the title tags of the page when the menu is selected Default: None 	
-		__('Testimonials','testimonial-basics'),		// $menu_title - string) (required) The on-screen name text for the menu Default: None
+		'Testimonial Basics',	// $page_title - (string) (required) The text to be displayed in the title tags of the page when the menu is selected Default: None 	
+		'Testimonials',		// $menu_title - string) (required) The on-screen name text for the menu Default: None
 		'manage_options',								// $capability - (string) (required) The capability required for this menu to be displayed to the user. User levels are deprecated and should not be used here! Default: None
 		'katb_testimonial_basics_admin',				// $menu_slug - (string) (required) The slug name to refer to this menu by (should be unique for this menu).
 		'katb_testimonial_basics_introduction'			// The function that displays the page content for the menu page.
@@ -111,9 +111,9 @@ function katb_testimonial_basics_create_menu() {
 	$katb_plugin_options_page = add_submenu_page(														// add_submenu_page( $parent_slug, $page_title, $menu_title, $capability, $menu_slug, $function );
 										'katb_testimonial_basics_admin',								// $parent_slug - (string) (required) The slug name for the parent menu (or the file name of a 
 																										// standard WordPress admin page).
-										__('Testimonial Basics Backup or Restore','testimonial-basics'),	// $page_title - (string) (required) The text to be displayed in the title tags of the page when 
+										'Testimonial Basics Backup or Restore',	// $page_title - (string) (required) The text to be displayed in the title tags of the page when 
 																										// the menu is selected 
-										__('Backup or Restore','testimonial-basics'),					// $menu_title - (string) (required) The text to be used for the menu 
+										'Backup or Restore',					// $menu_title - (string) (required) The text to be used for the menu 
 										'manage_options',												// $capability - (string) (required) The capability required for this menu to be displayed to the user.
 										'katb-backup',													// $menu_slug - (string) (required) The slug name to refer to this menu by (should be unique for 
 																										// this menu). If you want to NOT duplicate the parent menu item, you need to set the name of the 
@@ -125,9 +125,9 @@ function katb_testimonial_basics_create_menu() {
 	$katb_plugin_options_page = add_submenu_page(												// add_submenu_page( $parent_slug, $page_title, $menu_title, $capability, $menu_slug, $function );
 										'katb_testimonial_basics_admin',						// $parent_slug - (string) (required) The slug name for the parent menu (or the file name of a 
 																								// standard WordPress admin page).
-										__('Testimonial Basics Options','testimonial-basics'),	// $page_title - (string) (required) The text to be displayed in the title tags of the page when 
+										'Testimonial Basics Options',	// $page_title - (string) (required) The text to be displayed in the title tags of the page when 
 																								// the menu is selected 
-										__('Options','testimonial-basics'),						// $menu_title - (string) (required) The text to be used for the menu 
+										'Options',						// $menu_title - (string) (required) The text to be used for the menu 
 										'manage_options',										// $capability - (string) (required) The capability required for this menu to be displayed to the user.
 										'katb-settings',										// $menu_slug - (string) (required) The slug name to refer to this menu by (should be unique for 
 																								// this menu). If you want to NOT duplicate the parent menu item, you need to set the name of the 
@@ -139,9 +139,9 @@ function katb_testimonial_basics_create_menu() {
 	$katb_edit_testimonials_page = add_submenu_page(													// add_submenu_page( $parent_slug, $page_title, $menu_title, $capability, $menu_slug, $function );
 										'katb_testimonial_basics_admin',								// $parent_slug - (string) (required) The slug name for the parent menu (or the file name of a 
 																										// standard WordPress admin page).
-										__('Testimonial Basics Edit Testimonials','testimonial-basics'),	// $page_title - (string) (required) The text to be displayed in the title tags of the page when 
+										'Testimonial Basics Edit Testimonials',	// $page_title - (string) (required) The text to be displayed in the title tags of the page when 
 																										// the menu is selected 
-										__('Edit Testimonials','testimonial-basics'),					// $menu_title - (string) (required) The text to be used for the menu 
+										'Edit Testimonials',					// $menu_title - (string) (required) The text to be used for the menu 
 										$edit_testimonial_capability,			// $capability - (string) (required) The capability required for this menu to be displayed to the user.
 										'katb_testimonial_basics_admin_edit',	// $menu_slug - (string) (required) The slug name to refer to this menu by (should be unique for 
 																				// this menu). If you want to NOT duplicate the parent menu item, you need to set the name of the 

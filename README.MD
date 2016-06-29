@@ -27,6 +27,7 @@
 * RTL compatible
 
 ## Upgrade Notice
+* Verion 4.3.1 fixes a bug causing css problems in the Edit Testimonial Panel
 * Version 4.3.0 is a major upgrade.
 * Backup your database and testimonials before upgrading.
 * Go through your site to ensure all testimonials and input forms are being displayed.

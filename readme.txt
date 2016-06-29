@@ -3,8 +3,8 @@ Contributors: kevinhaig
 Donate link: http://kevinsspace.ca/testimonial-basics-wordpress-plugin/
 Tags: testimonials,ratings,reviews
 Requires at least: 4.3
-Tested up to: 4.5.2
-Stable tag: 4.3.0
+Tested up to: 4.5.3
+Stable tag: 4.3.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/quick-guide-gplv3.html
 
@@ -109,6 +109,9 @@ Users are not allowed to upload photos because it is a security issue. Use of gr
 
 
 == Changelog ==
+
+= 4.3.1 =
+* fixed translation bug that caused css problems with the edit testimonials panel
 
 = 4.3.0 =
 * added RTL support
