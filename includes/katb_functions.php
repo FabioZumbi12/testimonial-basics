@@ -875,11 +875,11 @@ function katb_get_testimonials_from_ids( $id ){
 	
 	$id_picks = array();
 	$id_picks_processed = array();
-	$id_picks = '';
-	$id_picks_processed ='';
+	#$id_picks = '';
+	#$id_picks_processed ='';
 	$id_picks = explode( ',', $id );
 	$katb_tdata_array = array();
-	$katb_tdata_array ='';
+	#$katb_tdata_array ='';
 		
 	$counter = 0;
 	foreach( $id_picks as $pick ) {
