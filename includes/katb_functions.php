@@ -923,7 +923,7 @@ function katb_get_testimonials( $group , $number, $by , $rotate, $use_pagination
 	global $wpdb , $tablename, $katb_options;
 	$tablename = $wpdb->prefix.'testimonial_basics';
 	$katb_tdata_array = array();
-	$katb_tdata_array ='';
+	#$katb_tdata_array ='';
 	$katb_offset_name = home_url().'katb_offset';
 	
 	if ( $group == 'all' && $number == 'all' && $by == 'date' ) {
